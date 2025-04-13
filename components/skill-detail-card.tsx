@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { Code, Layers, Settings, Wrench } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
@@ -46,15 +47,15 @@ interface SkillDetailProps {
   };
   category: string;
   locale: string;
-  t: (key: string, params?: Record<string, string>) => string;
 }
 
 export default function SkillDetailCard({
   skill,
   category,
   locale,
-  t,
 }: SkillDetailProps) {
+  const t = useTranslations("skillDetail");
+
   const isMobile = useMediaQuery("(max-width: 768px)");
 
   // モバイルではDialogを使用、デスクトップではTooltipを使用
@@ -89,22 +90,22 @@ export default function SkillDetailCard({
             {/* 追加情報セクション - モバイル用の追加コンテンツ */}
             <div className="mt-2 p-3 rounded-md bg-slate-100 dark:bg-neutral-700/20 border">
               <h4 className="text-sm font-medium mb-2">
-                {t("skillDetail.relatedProjects")}
+                {t("relatedProjects")}
               </h4>
               <ul className="list-disc pl-5 space-y-1 text-sm">
                 {category === "programming" && skill.name === "Python" && (
                   <>
-                    <li>{t("skillDetail.python.dataAnalysis")}</li>
-                    <li>{t("skillDetail.python.automation")}</li>
+                    <li>{t("python.dataAnalysis")}</li>
+                    <li>{t("python.automation")}</li>
                   </>
                 )}
                 {category === "frameworks" && skill.name === "React" && (
                   <>
-                    <li>{t("skillDetail.react.webService")}</li>
-                    <li>{t("skillDetail.react.adminUI")}</li>
+                    <li>{t("react.webService")}</li>
+                    <li>{t("react.adminUI")}</li>
                   </>
                 )}
-                <li>{t("skillDetail.utilization")}</li>
+                <li>{t("utilization")}</li>
               </ul>
             </div>
           </div>

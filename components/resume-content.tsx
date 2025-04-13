@@ -51,9 +51,7 @@ import { getCategoryName } from "@/lib/utils";
  * セクションごとのIDと表示名を定義
  * → 目次リンクと実際のセクションの対応に使う
  */
-const getSections = (
-  t: (key: string, params?: Record<string, string>) => string
-) => [
+const getSections = (t: (key: string) => string) => [
   {
     id: "profile",
     label: t("sections.profile"),
@@ -115,7 +113,10 @@ export default function ResumeContent() {
   const isMobile = useMediaQuery("(max-width: 768px)");
 
   // セクション定義を取得
-  const sections = useMemo(() => getSections(t), [t]);
+  const sections = useMemo(
+    () => getSections(t as (key: string) => string),
+    [t]
+  );
 
   useEffect(() => {
     setMounted(true);
@@ -581,7 +582,6 @@ export default function ResumeContent() {
                                 skill={skill}
                                 category={category}
                                 locale={locale}
-                                t={t}
                               />
                             )
                           )}
