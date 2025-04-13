@@ -66,9 +66,10 @@ To add a new language:
 
 ## Deployment
 
-This project can be deployed on [Vercel](https://vercel.com/) with zero configuration:
+This project can be deployed on GitHub Pages using GitHub Actions workflow.
 
 ```bash
+# For local build and testing
 pnpm build
 ```
 
@@ -142,8 +143,9 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 
 ## デプロイメント
 
-このプロジェクトは[Vercel](https://vercel.com/)で設定不要でデプロイできます:
+このプロジェクトはGitHub Actionsワークフローを使用してGitHub Pagesにデプロイできます。
 
 ```bash
+# ローカルでのビルドとテスト
 pnpm build
 ```
