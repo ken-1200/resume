@@ -55,5 +55,11 @@
     },
     "footer": {
         "rights": "All rights reserved."
+    },
+    "notFound": {
+        "title": "Page Not Found",
+        "description": "The page you are looking for may not exist or has been moved.",
+        "back": "Back to top",
+        "home": "Back to home"
     }
 }
