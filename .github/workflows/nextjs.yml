@@ -79,6 +79,13 @@ jobs:
       # 7) ビルド
       - run: pnpm build
 
+      - name: Check build output directories
+        run: |
+          echo "Checking build output directories:"
+          ls -la .
+          ls -la .next/ || echo ".next directory not found"
+          ls -la out/ || echo "out directory not found"
+
       # 8) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
         with:
