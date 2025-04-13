@@ -22,7 +22,7 @@ A modern, internationalized personal resume website built with Next.js.
 
 ### Prerequisites
 
-- Node.js (v18 or later)
+- Node.js (v20 or later)
 - pnpm
 
 ### Installation
@@ -99,7 +99,7 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 
 ### 前提条件
 
-- Node.js (v18以降)
+- Node.js (v20以降)
 - pnpm
 
 ### インストール
