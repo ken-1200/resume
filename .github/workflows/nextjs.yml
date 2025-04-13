@@ -82,7 +82,7 @@ jobs:
       # 8) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./.next/out
 
   deploy:
     needs: build
