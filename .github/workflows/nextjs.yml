@@ -26,7 +26,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8 # lockfile に合わせて調整
+          version: 9 # lockfile に合わせて調整
           run_install: false # install は後段で実行
 
       # 3) Node をセットアップ（pnpm キャッシュ有効）
