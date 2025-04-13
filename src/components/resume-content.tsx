@@ -20,16 +20,21 @@ import {
   Briefcase,
   AlignLeft,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/src/components/ui/button";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+} from "@/src/components/ui/card";
+import { ScrollArea } from "@/src/components/ui/scroll-area";
+import { Separator } from "@/src/components/ui/separator";
+import { Badge } from "@/src/components/ui/badge";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/collapsible";
+} from "@/src/components/ui/collapsible";
 import {
   Sheet,
   SheetContent,
@@ -38,10 +43,10 @@ import {
   SheetTitle,
   SheetTrigger,
   SheetClose,
-} from "@/components/ui/sheet";
-import LanguageSwitcher from "@/components/language-switcher";
-import SkillDetailCard from "@/components/skill-detail-card";
-import Github from "@/components/icon/github";
+} from "@/src/components/ui/sheet";
+import LanguageSwitcher from "@/src/components/language-switcher";
+import SkillDetailCard from "@/src/components/skill-detail-card";
+import Github from "@/src/components/icon/github";
 
 import useMediaQuery from "@/hooks/use-media-query";
 import { useProfileData } from "@/data/localized-data";

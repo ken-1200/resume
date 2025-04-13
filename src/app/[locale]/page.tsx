@@ -1,6 +1,6 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { routing } from "@/i18n/routing";
-import ResumeContent from "@/components/resume-content";
+import { routing } from "@/src/i18n/routing";
+import ResumeContent from "@/src/components/resume-content";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
