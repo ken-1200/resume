@@ -52,6 +52,14 @@ jobs:
       # 6) 依存インストール
       - run: pnpm install --frozen-lockfile
 
+      # ビルド前のデバッグステップを追加
+      - name: Debug environment
+        run: |
+          echo "Listing files in directory:"
+          ls -la
+          echo "Checking for i18n config files:"
+          find . -name "i18n*.ts" -o -name "i18n*.js"
+
       # 7) ビルド
       - run: pnpm build
 
