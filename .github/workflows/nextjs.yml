@@ -55,10 +55,15 @@ jobs:
       # 7) next.config.js の削除
       - run: rm -f next.config.js
 
+      - name: Debug GitHub variables
+        run: |
+          echo "github.actor: ${{ github.actor }}"
+          echo "github.repository: ${{ github.repository }}"
+
       # 8) ビルド
       - run: pnpm build
         env:
-          GHP_URL: https://${{ github.actor }}.github.io/${{ github.repository }}
+          GHP_URL: https://${{ github.actor }}.github.io"
 
       # 9) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
