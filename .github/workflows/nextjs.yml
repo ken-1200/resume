@@ -52,44 +52,18 @@ jobs:
       # 6) 依存インストール
       - run: pnpm install --frozen-lockfile
 
-      # ビルド前のデバッグステップを追加
-      - name: Debug environment
-        run: |
-          echo "Listing files in directory:"
-          ls -la
-          echo "Checking for i18n config files:"
-          find . -name "i18n*.ts" -o -name "i18n*.js"
-      - name: Check src directory
-        run: |
-          echo "Listing src directory:"
-          ls -la src/
-          echo "Finding i18n files in src:"
-          find src/ -name "*i18n*"
-
-      - name: Check config files
-        run: |
-          echo "Checking next.config.js content:"
-          cat next.config.js
-          echo "Checking next.config.ts content:"
-          cat next.config.ts
-
-          # 必要に応じて古い設定ファイルを削除
-          rm next.config.js
+      - name: Remove conflicting config
+        run: rm -f next.config.js
 
       # 7) ビルド
-      - run: pnpm build
-
-      - name: Check build output directories
-        run: |
-          echo "Checking build output directories:"
-          ls -la .
-          ls -la .next/ || echo ".next directory not found"
-          ls -la out/ || echo "out directory not found"
+      - run: |
+          rm -f next.config.js
+          pnpm build
 
       # 8) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.next/out
+          path: out
 
   deploy:
     needs: build
