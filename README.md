@@ -6,6 +6,7 @@ A modern, internationalized personal resume website built with Next.js.
 
 - **Multilingual Support**: Automatically detects and serves content in the user's preferred language
 - **Responsive Design**: Optimized for all device sizes
+- **Dark/Light Mode**: Theme switching with system preference detection
 - **Component-Based Architecture**: Built with reusable React components
 - **Internationalization (i18n)**: Supports content in multiple languages
 - **Modern Tech Stack**: Next.js, TypeScript, and Tailwind CSS
@@ -47,31 +48,50 @@ A modern, internationalized personal resume website built with Next.js.
 
 ## Project Structure
 
-- `app/`: Next.js app router
-- `app/[locale]/`: Locale-specific pages
-- `components/`: Reusable UI components
-- `data/`: Resume data and content
-- `hooks/`: Custom React hooks
-- `i18n/`: Internationalization configuration
-- `lib/`: Utility functions
-- `messages/`: Translation messages
+```
+resume/
+├── src/
+│   ├── app/                  # Next.js app router
+│   │   └── [locale]/         # Locale-specific pages
+│   ├── components/           # Reusable UI components
+│   │   ├── ui/               # UI components from shadcn
+│   │   └── icon/             # Icon components
+│   ├── data/                 # Resume data and content
+│   ├── hooks/                # Custom React hooks
+│   ├── i18n/                 # i18n configuration
+│   │   └── messages/         # Translation messages
+│   ├── lib/                  # Utility functions
+│   └── types/                # TypeScript type definitions
+├── .github/                  # GitHub Actions workflows
+├── .env                      # Environment variables
+├── next.config.ts            # Next.js configuration
+└── package.json              # Dependencies and scripts
+```
+
+---
 
 ## i18n Support
 
 The website supports multiple languages with automatic language detection.
 
 To add a new language:
-1. Create a new translation file in the `messages/` directory
+
+1. Create a new translation file in the `src/i18n/messages/` directory
 2. Add the language code to the supported locales in the i18n configuration
 
 ## Deployment
 
-This project can be deployed on GitHub Pages using GitHub Actions workflow.
+This project can be deployed on **GitHub Pages** using GitHub Actions workflow.
 
 ```bash
-# For local build and testing
+# For local development
+pnpm dev
+
+# For local build
 pnpm build
 ```
+
+For deployment to GitHub Pages, the workflow automatically handles the build and deployment process when changes are pushed to the main branch.
 
 ---
 
@@ -83,6 +103,7 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 
 - **多言語サポート**: ユーザーの優先言語を自動検出してコンテンツを提供
 - **レスポンシブデザイン**: あらゆるデバイスサイズに最適化
+- **ダーク/ライトモード**: システム設定に連動したテーマ切り替え
 - **コンポーネントベースのアーキテクチャ**: 再利用可能なReactコンポーネントで構築
 - **国際化（i18n）**: 複数言語でのコンテンツ提供をサポート
 - **最新のテックスタック**: Next.js、TypeScript、Tailwind CSSを使用
@@ -124,28 +145,46 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 
 ## プロジェクト構造
 
-- `app/`: Next.jsアプリルーター
-- `app/[locale]/`: ロケール固有のページ
-- `components/`: 再利用可能なUIコンポーネント
-- `data/`: レジュメデータとコンテンツ
-- `hooks/`: カスタムReactフック
-- `i18n/`: 国際化の設定
-- `lib/`: ユーティリティ関数
-- `messages/`: 翻訳メッセージ
+```
+resume/
+├── src/
+│   ├── app/                  # Next.jsアプリルーター
+│   │   └── [locale]/         # ロケール固有のページ
+│   ├── components/           # 再利用可能なUIコンポーネント
+│   │   ├── ui/               # shadcnのUIコンポーネント
+│   │   └── icon/             # アイコンコンポーネント
+│   ├── data/                 # レジュームデータとコンテンツ
+│   ├── hooks/                # カスタムReactフック
+│   ├── i18n/                 # i18n設定
+│   │   └── messages/         # 翻訳メッセージ
+│   ├── lib/                  # ユーティリティ関数
+│   └── types/                # TypeScript型定義
+├── .github/                  # GitHub Actionsワークフロー
+├── .env                      # 環境変数
+├── next.config.ts            # Next.js設定
+└── package.json              # 依存関係とスクリプト
+```
+
 
 ## i18nサポート
 
 このウェブサイトは自動言語検出機能付きで複数言語をサポートしています。
 
 新しい言語を追加するには:
-1. `messages/`ディレクトリに新しい翻訳ファイルを作成
+
+1. `src/i18n/messages/`ディレクトリに新しい翻訳ファイルを作成
 2. i18n設定のサポート対象ロケールに言語コードを追加
 
 ## デプロイメント
 
-このプロジェクトはGitHub Actionsワークフローを使用してGitHub Pagesにデプロイできます。
+このプロジェクトは**GitHub Actionsワークフロー**を使用してGitHub Pagesにデプロイできます。
 
 ```bash
-# ローカルでのビルドとテスト
+# ローカル開発用
+pnpm dev
+
+# ローカルビルド用
 pnpm build
 ```
+
+GitHub Pagesへのデプロイは、mainブランチに変更がプッシュされると、ワークフローが自動的にビルドとデプロイプロセスを処理します。
