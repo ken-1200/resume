@@ -48,9 +48,9 @@ import LanguageSwitcher from "@/src/components/language-switcher";
 import SkillDetailCard from "@/src/components/skill-detail-card";
 import Github from "@/src/components/icon/github";
 
-import useMediaQuery from "@/hooks/use-media-query";
-import { useProfileData } from "@/data/localized-data";
-import { getCategoryName } from "@/lib/utils";
+import useMediaQuery from "@/src/hooks/use-media-query";
+import { useProfileData } from "@/src/data/localized-data";
+import { getCategoryName } from "@/src/lib/utils";
 
 /**
  * セクションごとのIDと表示名を定義

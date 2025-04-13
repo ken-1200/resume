@@ -19,8 +19,8 @@ import {
   DialogTrigger,
 } from "@/src/components/ui/dialog";
 
-import useMediaQuery from "@/hooks/use-media-query";
-import { getCategoryName } from "@/lib/utils";
+import useMediaQuery from "@/src/hooks/use-media-query";
+import { getCategoryName } from "@/src/lib/utils";
 
 // カテゴリごとにアイコンを取得する関数
 const getCategoryIcon = (category: string) => {
