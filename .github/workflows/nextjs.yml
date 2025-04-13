@@ -59,11 +59,12 @@ jobs:
         run: |
           echo "github.actor: ${{ github.actor }}"
           echo "github.repository: ${{ github.repository }}"
+          echo "github.event.repository.name: ${{ github.event.repository.name }}"
 
       # 8) ビルド
       - run: pnpm build
         env:
-          GHP_URL: https://${{ github.actor }}.github.io"
+          GHP_URL: ${{ github.actor }}.github.io/${{ github.event.repository.name }}"
 
       # 9) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
