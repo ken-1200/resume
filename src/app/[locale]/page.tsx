@@ -1,4 +1,5 @@
-import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Locale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/src/i18n/routing";
 import ResumeContent from "@/src/components/resume-content";
 
@@ -9,12 +10,12 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await params;
-  const typedLocale = locale as "ja" | "en";
+
   const t = await getTranslations({
-    locale: typedLocale,
+    locale,
     namespace: "metadata",
   });
 
@@ -27,7 +28,7 @@ export async function generateMetadata({
 export default async function HomePage({
   params,
 }: {
-  params: Promise<{ locale: "ja" | "en" }>;
+  params: Promise<{ locale: Locale }>;
 }) {
   const { locale } = await params;
 
