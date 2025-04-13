@@ -5,8 +5,8 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: "export",
-  basePath: "/resume",
+  output: process.env.NODE_ENV === "production" ? "export" : undefined,
+  basePath: process.env.NODE_ENV === "production" ? "/resume" : undefined,
 };
 
 // Use the plugin
