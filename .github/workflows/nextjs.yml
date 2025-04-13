@@ -52,18 +52,17 @@ jobs:
       # 6) 依存インストール
       - run: pnpm install --frozen-lockfile
 
-      - name: Remove conflicting config
-        run: rm -f next.config.js
-
       # 7) ビルド
       - run: |
           rm -f next.config.js
           pnpm build
+        env:
+          GHP_URL: https://${{ github.actor }}.github.io/${{ github.repository }}
 
       # 8) 静的ファイルをアップロード
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: .next
 
   deploy:
     needs: build
