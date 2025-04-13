@@ -55,11 +55,5 @@
     },
     "footer": {
         "rights": "All rights reserved."
-    },
-    "notFound": {
-        "title": "ページが見つかりません",
-        "description": "お探しのページは存在しないか、移動された可能性があります。",
-        "back": "前のページに戻る",
-        "home": "トップページに戻る"
     }
 }
