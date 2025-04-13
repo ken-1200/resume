@@ -1,0 +1,59 @@
+{
+    "locale": "en",
+    "metadata": {
+        "title": "Resume",
+        "description": "This document summarizes my work history, skills, and strengths."
+    },
+    "common": {
+        "resume": "Resume",
+        "toggleTheme": "Toggle theme"
+    },
+    "navigation": {
+        "toc": "Table of Contents",
+        "open": "Open table of contents",
+        "close": "Close table of contents",
+        "instruction": "Select a section to scroll to that area",
+        "current": "Current",
+        "aria": "Table of contents navigation"
+    },
+    "sections": {
+        "profile": "Profile",
+        "strengths": "Strengths",
+        "skills": "Skills & Knowledge",
+        "workHistory": "Work History",
+        "outputs": "Outputs"
+    },
+    "profile": {
+        "name": "Name",
+        "birth": "Date of Birth",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "workHistory": {
+        "responsibilities": "Responsibilities",
+        "projects": "Projects"
+    },
+    "project": {
+        "responsibilities": "Responsibilities",
+        "technologies": "Technologies"
+    },
+    "skillDetail": {
+        "relatedProjects": "Related Projects",
+        "python": {
+            "dataAnalysis": "Data Analysis Platform Construction",
+            "automation": "Automation Script Development"
+        },
+        "react": {
+            "webService": "Web Service Development Project",
+            "adminUI": "Admin UI Renewal"
+        },
+        "utilization": "Application in Related Work"
+    },
+    "outputs": {
+        "openLink": "Open link"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }
+}

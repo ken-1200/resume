@@ -1,0 +1,59 @@
+{
+    "locale": "ja",
+    "metadata": {
+        "title": "職務履歴書",
+        "description": "職務経歴やスキル、強みをまとめています。"
+    },
+    "common": {
+        "resume": "職務経歴書",
+        "toggleTheme": "テーマを切り替え"
+    },
+    "navigation": {
+        "toc": "目次",
+        "open": "目次を開く",
+        "close": "目次を閉じる",
+        "instruction": "セクションを選択すると、該当箇所にスクロールします",
+        "current": "現在",
+        "aria": "目次ナビゲーション"
+    },
+    "sections": {
+        "profile": "個人情報",
+        "strengths": "専門分野・強み",
+        "skills": "スキル・知識",
+        "workHistory": "職務経歴",
+        "outputs": "アウトプット"
+    },
+    "profile": {
+        "name": "氏名",
+        "birth": "生年月日",
+        "address": "住所",
+        "phone": "電話番号",
+        "email": "メール"
+    },
+    "workHistory": {
+        "responsibilities": "職務内容",
+        "projects": "プロジェクト事例"
+    },
+    "project": {
+        "responsibilities": "担当業務",
+        "technologies": "使用技術"
+    },
+    "skillDetail": {
+        "relatedProjects": "関連プロジェクト例",
+        "python": {
+            "dataAnalysis": "データ分析基盤構築プロジェクト",
+            "automation": "自動化スクリプト開発"
+        },
+        "react": {
+            "webService": "Webサービス開発プロジェクト",
+            "adminUI": "管理画面UI刷新"
+        },
+        "utilization": "関連業務での活用例"
+    },
+    "outputs": {
+        "openLink": "リンクを開く"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }
+}
