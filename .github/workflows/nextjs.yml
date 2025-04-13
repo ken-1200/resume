@@ -1,3 +1,4 @@
+# 📦 Next.js → GitHub Pages
 name: Deploy Next.js site to Pages
 
 on:
@@ -5,78 +6,66 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-# GitHub Pages へ書き込むための権限
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 同時デプロイを 1 つに制限（実行中はキャンセルしない）
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # ---------- Build ----------
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1) リポジトリ取得
-      - name: Checkout
-        uses: actions/checkout@v4
+      # 1) ソース取得
+      - uses: actions/checkout@v4
 
-      # 2) Node と pnpm をセットアップ
+      # 2) pnpm を先にインストール
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8 # lockfile に合わせて調整
+          run_install: false # install は後段で実行
+
+      # 3) Node をセットアップ（pnpm キャッシュ有効）
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm" # node_modules キャッシュを pnpm 形式で管理
+          cache: "pnpm"
 
-      - name: Setup pnpm
-        # pnpm/action-setup で pnpm CLI をインストール & `pnpm install` 実行
-        uses: pnpm/action-setup@v3
-        with:
-          version: 8 # 必要に応じて lockfile のバージョンに合わせる
-          run_install: false # キャッシュ復元後に手動で install する
-
-      # 3) GitHub Pages 用 Next.js 設定を自動注入
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      # 4) GitHub Pages 用 Next.js 設定
+      - uses: actions/configure-pages@v5
         with:
           static_site_generator: next
 
-      # 4) Next.js のビルドキャッシュ（.next/cache）を復元
-      - name: Restore Next.js cache
-        uses: actions/cache@v4
+      # 5) Next.js ビルドキャッシュ復元
+      - uses: actions/cache@v4
         with:
-          path: |
-            .next/cache
+          path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
 
-      # 5) 依存関係インストール（lockfile 固定）
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+      # 6) 依存インストール
+      - run: pnpm install --frozen-lockfile
 
-      # 6) Next.js ビルド
-      - name: Build with Next.js
-        run: pnpm next build
+      # 7) ビルド
+      - run: pnpm next build
 
-      # 7) 静的ファイルをアップロード
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # 8) 静的ファイルをアップロード
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out # next export で生成される静的ファイル
+          path: ./out
 
-  # ---------- Deploy ----------
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
