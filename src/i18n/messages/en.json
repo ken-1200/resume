@@ -14,7 +14,8 @@
         "close": "Close table of contents",
         "instruction": "Select a section to scroll to that area",
         "current": "Current",
-        "aria": "Table of contents navigation"
+        "aria": "Table of contents navigation",
+        "scrollToTop": "Scroll to top of page"
     },
     "sections": {
         "profile": "Profile",

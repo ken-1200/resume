@@ -25,7 +25,7 @@ export default function LanguageSwitcher() {
       variant="ghost"
       size="icon"
       onClick={() => switchLocale(locale === "ja" ? "en" : "ja")}
-      className="dark:hover:bg-neutral-800"
+      className="cursor-pointer dark:hover:bg-neutral-800"
     >
       <Globe className="h-5 w-5" />
     </Button>

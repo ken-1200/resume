@@ -308,16 +308,31 @@ export default function ResumeContent() {
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-neutral-900 text-slate-800 dark:text-neutral-200">
       {/* シンプルなヘッダー */}
       <header className="w-full py-4 px-4 border-b sticky top-0 z-20 flex justify-between items-center bg-white/95 dark:bg-neutral-900/95 backdrop-blur-sm border-slate-200 dark:border-neutral-700/50 shadow-sm dark:shadow-none">
-        <h1 className="font-bold text-xl">{t("common.resume")}</h1>
+        <h1 className="font-bold text-xl">
+          <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+            className="cursor-pointer hover:text-slate-700 dark:hover:text-neutral-300 transition-colors"
+            aria-label={t("navigation.scrollToTop")}
+          >
+            {t("common.resume")}
+          </a>
+        </h1>
 
         <div className="flex items-center gap-2">
           {/* スマホ用目次トグルボタン */}
           <Sheet open={showMobileNav} onOpenChange={setShowMobileNav}>
             <SheetTrigger asChild>
               <Button
-                variant="outline"
+                variant="ghost"
                 size="sm"
-                className="lg:hidden flex items-center gap-1.5"
+                className="cursor-pointer lg:hidden flex items-center gap-1.5"
                 aria-label={
                   showMobileNav ? t("navigation.close") : t("navigation.open")
                 }
@@ -389,7 +404,7 @@ export default function ResumeContent() {
             variant="ghost"
             size="icon"
             onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
-            className="dark:hover:bg-neutral-800"
+            className="cursor-pointer dark:hover:bg-neutral-800"
           >
             <Sun className="h-5 w-5 transition-all dark:rotate-90 dark:scale-0" />
             <Moon className="absolute h-5 w-5 transition-all rotate-90 scale-0 dark:rotate-0 dark:scale-100" />

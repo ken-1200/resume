@@ -14,7 +14,8 @@
         "close": "目次を閉じる",
         "instruction": "セクションを選択すると、該当箇所にスクロールします",
         "current": "現在",
-        "aria": "目次ナビゲーション"
+        "aria": "目次ナビゲーション",
+        "scrollToTop": "ページの先頭に戻る"
     },
     "sections": {
         "profile": "個人情報",
