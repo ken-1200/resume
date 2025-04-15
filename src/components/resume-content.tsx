@@ -47,6 +47,7 @@ import {
 import LanguageSwitcher from "@/src/components/language-switcher";
 import SkillDetailCard from "@/src/components/skill-detail-card";
 import Github from "@/src/components/icon/github";
+import LinkedIn from "@/src/components/icon/linkedin";
 
 import useMediaQuery from "@/src/hooks/use-media-query";
 import { useProfileData } from "@/src/data/localized-data";
@@ -532,6 +533,21 @@ export default function ResumeContent() {
                           rel="noopener noreferrer"
                         >
                           {profile.github}
+                          <ExternalLink className="h-3 w-3 ml-1" />
+                        </a>
+                      </div>
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                          <LinkedIn className="h-4 w-4 mr-2 flex-shrink-0" />
+                          LinkedIn:
+                        </span>
+                        <a
+                          href={`https://linkedin.com/in/${profile.linkedin}`}
+                          className="flex items-center transition-colors text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {profile.linkedin}
                           <ExternalLink className="h-3 w-3 ml-1" />
                         </a>
                       </div>

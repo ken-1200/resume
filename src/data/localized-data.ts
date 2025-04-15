@@ -12,6 +12,7 @@ export function useProfileData() {
       phone: "090-xxxx-xxxx",
       email: "example@example.com",
       github: "ken-1200",
+      linkedin: "kensuke-machida",
     },
     en: {
       name: "Taro Yamada",
@@ -20,6 +21,7 @@ export function useProfileData() {
       phone: "090-xxxx-xxxx",
       email: "example@example.com",
       github: "ken-1200",
+      linkedin: "kensuke-machida",
     },
   };
 
