@@ -487,42 +487,58 @@ export default function ResumeContent() {
                   <div className="grid grid-cols-1 gap-4">
                     <div className="space-y-4">
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span
+                          className={`${
+                            locale === "en" ? "w-32" : "w-24"
+                          } flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}
+                        >
                           <User className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.name")}:
                         </span>
                         <span className="font-medium">{profile.name}</span>
                       </div>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span
+                          className={`${
+                            locale === "en" ? "w-32" : "w-24"
+                          } flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}
+                        >
                           <Calendar className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.birth")}:
                         </span>
                         <span>{profile.birth}</span>
                       </div>
                       {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span className={`${locale === 'en' ? 'w-32' : 'w-24'} flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}>
                           <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.address")}:
                         </span>
                         <span>{profile.address}</span>
                       </div> */}
                       {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span className={`${locale === 'en' ? 'w-32' : 'w-24'} flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}>
                           <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.phone")}:
                         </span>
                         <span>{profile.phone}</span>
                       </div> */}
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span
+                          className={`${
+                            locale === "en" ? "w-32" : "w-24"
+                          } flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}
+                        >
                           <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.email")}:
                         </span>
                         <span>{profile.email}</span>
                       </div>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span
+                          className={`${
+                            locale === "en" ? "w-32" : "w-24"
+                          } flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}
+                        >
                           <Github className="h-4 w-4 mr-2 flex-shrink-0" />
                           GitHub:
                         </span>
@@ -537,7 +553,11 @@ export default function ResumeContent() {
                         </a>
                       </div>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
-                        <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
+                        <span
+                          className={`${
+                            locale === "en" ? "w-32" : "w-24"
+                          } flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400`}
+                        >
                           <LinkedIn className="h-4 w-4 mr-2 flex-shrink-0" />
                           LinkedIn:
                         </span>
