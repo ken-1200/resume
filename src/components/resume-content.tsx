@@ -7,8 +7,8 @@ import {
   Moon,
   Sun,
   Mail,
-  MapPin,
-  Phone,
+  // MapPin,
+  // Phone,
   ChevronDown,
   ChevronUp,
   ExternalLink,
@@ -500,20 +500,20 @@ export default function ResumeContent() {
                         </span>
                         <span>{profile.birth}</span>
                       </div>
-                      <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                         <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
                           <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.address")}:
                         </span>
                         <span>{profile.address}</span>
-                      </div>
-                      <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      </div> */}
+                      {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                         <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
                           <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
                           {t("profile.phone")}:
                         </span>
                         <span>{profile.phone}</span>
-                      </div>
+                      </div> */}
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                         <span className="w-24 flex-shrink-0 flex items-center text-slate-500 dark:text-neutral-400">
                           <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
