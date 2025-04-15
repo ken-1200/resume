@@ -6,7 +6,7 @@ export function useProfileData() {
   // 言語によって返すデータを切り替える
   const profileData = {
     ja: {
-      name: "山田 太郎",
+      name: "町田 健輔",
       birth: "1990/01/01",
       address: "東京都〇〇区〇〇町",
       phone: "090-xxxx-xxxx",
@@ -15,7 +15,7 @@ export function useProfileData() {
       linkedin: "kensuke-machida",
     },
     en: {
-      name: "Taro Yamada",
+      name: "Kensuke Machida",
       birth: "01/01/1990",
       address: "XX Town, XX District, Tokyo",
       phone: "090-xxxx-xxxx",
