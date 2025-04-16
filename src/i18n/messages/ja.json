@@ -6,7 +6,9 @@
     },
     "common": {
         "resume": "職務経歴書",
-        "toggleTheme": "テーマを切り替え"
+        "toggleTheme": "テーマを切り替え",
+        "underConstruction": "このレジュメはサンプルです",
+        "draft": "作成中"
     },
     "navigation": {
         "toc": "目次",

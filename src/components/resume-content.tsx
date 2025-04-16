@@ -414,6 +414,23 @@ export default function ResumeContent() {
         </div>
       </header>
 
+      {/* 作成中バナー - ヘッダー直後に配置 */}
+      <div className="w-full bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800/50 py-2 sticky top-[70px] z-10">
+        <div className="container mx-auto px-4 text-center text-amber-800 dark:text-amber-300 font-medium">
+          <div className="flex items-center justify-center gap-2">
+            <span className="animate-pulse">⚠️</span>
+            {t("common.underConstruction")}
+            <span className="animate-pulse">⚠️</span>
+          </div>
+        </div>
+      </div>
+      {/* ウォーターマーク - 固定配置 */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-5 opacity-[0.08]">
+        <div className="transform rotate-[-30deg] text-7xl font-black border-8 border-current p-6 text-slate-900 dark:text-white">
+          {t("common.draft")}
+        </div>
+      </div>
+
       {/* メインコンテンツ + サイドバー */}
       <div className="container mx-auto py-6 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-[250px_1fr] gap-6">
