@@ -415,7 +415,7 @@ export default function ResumeContent() {
       </header>
 
       {/* 作成中バナー - ヘッダー直後に配置 */}
-      <div className="w-full bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800/50 py-2 sticky top-[70px] z-10">
+      <div className="w-full bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800/50 py-2 sticky top-[69px] z-10">
         <div className="container mx-auto px-4 text-center text-amber-800 dark:text-amber-300 font-medium">
           <div className="flex items-center justify-center gap-2">
             <span className="animate-pulse">⚠️</span>
