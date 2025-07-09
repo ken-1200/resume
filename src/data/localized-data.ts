@@ -167,39 +167,39 @@ export function useProfileData() {
         {
           name: "Python",
           experience: "4年",
-          details: "バックエンド開発、自動化スクリプト作成、AI関連開発",
+          details: "バックエンド開発、自動化スクリプト作成、AI関連開発（MCP Server, OpenAI API）",
         },
         {
           name: "TypeScript",
           experience: "4年",
-          details: "フロントエンド・バックエンド開発",
+          details: "フロントエンド・バックエンド開発、型安全な実装、React/Next.js/Node.js環境",
         },
         {
           name: "SQL",
           experience: "4年",
-          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL、複雑なクエリ、パフォーマンスチューニング",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL、クエリ、パフォーマンスチューニング",
         },
       ],
       frameworks: [
         {
           name: "React",
           experience: "4年",
-          details: "SPAアプリケーション開発",
+          details: "SPAアプリケーション開発、カスタムフック実装、コンポーネント設計",
         },
         {
           name: "Next.js",
           experience: "1年",
-          details: "App Router、SPAアプリケーション開発",
+          details: "SPAアプリケーション開発、App Router",
         },
         {
           name: "Django",
           experience: "4年",
-          details: "REST API開発、認証システム実装",
+          details: "REST API開発、認証システム実装、Django REST Framework",
         },
         {
           name: "FastAPI",
           experience: "4年",
-          details: "REST API開発、マイクロサービス構築",
+          details: "REST API開発、マイクロサービス構築、非同期処理",
         },
         {
           name: "Express",
@@ -209,24 +209,24 @@ export function useProfileData() {
         {
           name: "Vue.js",
           experience: "1年",
-          details: "SPAアプリケーション開発",
+          details: "SPAアプリケーション開発、コンポーネント設計",
         },
         {
           name: "Nuxt.js",
           experience: "1年",
-          details: "コンポーネント設計",
+          details: "SPAアプリケーション開発、コンポーネント設計",
         },
       ],
       tools: [
         {
           name: "Docker",
           experience: "4年",
-          details: "マルチコンテナ環境構築、CI/CDパイプライン統合",
+          details: "マルチコンテナ環境構築、CI/CDパイプライン統合、Docker Compose、マルチステージビルド",
         },
         {
           name: "GitHub",
           experience: "4年",
-          details: "マージ戦略、ワークフロー設計",
+          details: "マージ戦略、ワークフロー設計、Pull Request管理、ブランチ戦略",
         },
         {
           name: "AWS",
@@ -248,12 +248,12 @@ export function useProfileData() {
         {
           name: "テスト自動化",
           experience: "4年",
-          details: "pytestでのテスト設計",
+          details: "pytestでのテスト設計、単体テスト、統合テスト、カバレッジ管理",
         },
         {
           name: "マイクロサービス",
           experience: "4年",
-          details: "サービス分割設計、API設計",
+          details: "サービス分割設計、API設計、サービス間通信、イベント駆動アーキテクチャ",
         },
         {
           name: "プロジェクト管理",
@@ -272,39 +272,39 @@ export function useProfileData() {
         {
           name: "Python",
           experience: "4 years",
-          details: "Backend development, automation scripts, AI-related development",
+          details: "Backend development, automation scripts, AI-related development (MCP Server, OpenAI API)",
         },
         {
           name: "TypeScript",
           experience: "4 years",
-          details: "Frontend and backend development",
+          details: "Frontend and backend development, type-safe implementation, React/Next.js/Node.js environments",
         },
         {
           name: "SQL",
           experience: "4 years",
-          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL, complex queries, performance tuning",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL, queries, performance tuning",
         },
       ],
       frameworks: [
         {
           name: "React",
           experience: "4 years",
-          details: "SPA application development",
+          details: "SPA application development, custom hook implementation, component design",
         },
         {
           name: "Next.js",
           experience: "1 year",
-          details: "App Router, SPA application development",
+          details: "SPA application development, App Router",
         },
         {
           name: "Django",
           experience: "4 years",
-          details: "REST API development, authentication system implementation",
+          details: "REST API development, authentication system implementation, Django REST Framework",
         },
         {
           name: "FastAPI",
           experience: "4 years",
-          details: "REST API development, microservice construction",
+          details: "REST API development, microservice construction, asynchronous processing",
         },
         {
           name: "Express",
@@ -314,24 +314,24 @@ export function useProfileData() {
         {
           name: "Vue.js",
           experience: "1 year",
-          details: "SPA application development",
+          details: "SPA application development, component design",
         },
         {
           name: "Nuxt.js",
           experience: "1 year",
-          details: "Component design",
+          details: "SPA application development, component design",
         },
       ],
       tools: [
         {
           name: "Docker",
           experience: "4 years",
-          details: "Multi-container environment setup, CI/CD pipeline integration",
+          details: "Multi-container environment setup, CI/CD pipeline integration, Docker Compose, multi-stage builds",
         },
         {
           name: "GitHub",
           experience: "4 years",
-          details: "Merge strategies, workflow design",
+          details: "Merge strategies, workflow design, Pull Request management, branch strategies",
         },
         {
           name: "AWS",
@@ -353,12 +353,12 @@ export function useProfileData() {
         {
           name: "Test Automation",
           experience: "4 years",
-          details: "Test design with pytest",
+          details: "Test design with pytest, unit testing, integration testing, coverage management",
         },
         {
           name: "Microservices",
           experience: "4 years",
-          details: "Service division design, API design",
+          details: "Service division design, API design, inter-service communication, event-driven architecture",
         },
         {
           name: "Project Management",
