@@ -166,50 +166,55 @@ export function useProfileData() {
       programming: [
         {
           name: "Python",
-          experience: "5年",
-          details: "データ分析、バックエンド開発、自動化スクリプト作成",
+          experience: "4年",
+          details: "バックエンド開発、自動化スクリプト作成、AI関連開発",
         },
         {
           name: "TypeScript",
           experience: "4年",
-          details: "フロントエンド・バックエンド両方での開発経験あり",
-        },
-        {
-          name: "JavaScript",
-          experience: "6年",
-          details: "ブラウザ/Node.js環境での開発、各種フレームワーク利用",
+          details: "フロントエンド・バックエンド開発",
         },
         {
           name: "SQL",
-          experience: "5年",
-          details: "複雑なクエリ、パフォーマンスチューニング、複数DB経験",
+          experience: "4年",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL、複雑なクエリ、パフォーマンスチューニング",
         },
       ],
       frameworks: [
         {
           name: "React",
           experience: "4年",
-          details: "SPAアプリケーション開発、カスタムフック設計",
+          details: "SPAアプリケーション開発",
         },
         {
           name: "Next.js",
-          experience: "3年",
-          details: "SSR/SSG実装、大規模アプリケーション構築",
+          experience: "1年",
+          details: "App Router、SPAアプリケーション開発",
         },
         {
           name: "Django",
-          experience: "3年",
+          experience: "4年",
           details: "REST API開発、認証システム実装",
         },
         {
+          name: "FastAPI",
+          experience: "4年",
+          details: "REST API開発、マイクロサービス構築",
+        },
+        {
           name: "Express",
-          experience: "2年",
-          details: "マイクロサービス構築、APIゲートウェイ設計",
+          experience: "1年",
+          details: "REST API開発",
         },
         {
           name: "Vue.js",
-          experience: "2年",
-          details: "コンポーネント設計、状態管理",
+          experience: "1年",
+          details: "SPAアプリケーション開発",
+        },
+        {
+          name: "Nuxt.js",
+          experience: "1年",
+          details: "コンポーネント設計",
         },
       ],
       tools: [
@@ -219,50 +224,45 @@ export function useProfileData() {
           details: "マルチコンテナ環境構築、CI/CDパイプライン統合",
         },
         {
-          name: "Git",
-          experience: "6年",
-          details: "複雑なマージ戦略、ワークフロー設計",
+          name: "GitHub",
+          experience: "4年",
+          details: "マージ戦略、ワークフロー設計",
         },
         {
           name: "AWS",
-          experience: "3年",
-          details: "EC2, S3, Lambda, RDS等の利用経験",
+          experience: "4年",
+          details: "VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch等の利用経験",
         },
         {
           name: "GCP",
           experience: "2年",
-          details: "Cloud Functions, BigQuery, GKE活用",
-        },
-        {
-          name: "Kubernetes",
-          experience: "2年",
-          details: "クラスター管理、デプロイメント構成",
+          details: "BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer等の利用経験",
         },
       ],
       others: [
         {
           name: "CI/CD",
-          experience: "3年",
-          details: "GitHub Actions, Jenkins活用実績",
-        },
-        {
-          name: "アジャイル開発",
           experience: "4年",
-          details: "スクラムマスター経験、カンバン方式実践",
+          details: "CodeDeploy, GitHub Actions",
         },
         {
           name: "テスト自動化",
-          experience: "3年",
-          details: "Jest, Cypress, PyTestでのテスト設計",
+          experience: "4年",
+          details: "pytestでのテスト設計",
         },
         {
           name: "マイクロサービス",
-          experience: "2年",
+          experience: "4年",
           details: "サービス分割設計、API設計",
         },
         {
+          name: "プロジェクト管理",
+          experience: "1年",
+          details: "プロジェクトリーダー経験",
+        },
+        {
           name: "データモデリング",
-          experience: "3年",
+          experience: "1年",
           details: "ER図設計、正規化、パフォーマンス最適化",
         },
       ],
@@ -271,107 +271,103 @@ export function useProfileData() {
       programming: [
         {
           name: "Python",
-          experience: "5 years",
-          details: "Data analysis, backend development, automation scripts",
+          experience: "4 years",
+          details: "Backend development, automation scripts, AI-related development",
         },
         {
           name: "TypeScript",
           experience: "4 years",
-          details: "Experience in both frontend and backend development",
-        },
-        {
-          name: "JavaScript",
-          experience: "6 years",
-          details:
-            "Development in browser/Node.js environments, using various frameworks",
+          details: "Frontend and backend development",
         },
         {
           name: "SQL",
-          experience: "5 years",
-          details:
-            "Complex queries, performance tuning, experience with multiple DBs",
+          experience: "4 years",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL, complex queries, performance tuning",
         },
       ],
       frameworks: [
         {
           name: "React",
           experience: "4 years",
-          details: "SPA application development, custom hook design",
+          details: "SPA application development",
         },
         {
           name: "Next.js",
-          experience: "3 years",
-          details:
-            "SSR/SSG implementation, large-scale application construction",
+          experience: "1 year",
+          details: "App Router, SPA application development",
         },
         {
           name: "Django",
-          experience: "3 years",
+          experience: "4 years",
           details: "REST API development, authentication system implementation",
         },
         {
+          name: "FastAPI",
+          experience: "4 years",
+          details: "REST API development, microservice construction",
+        },
+        {
           name: "Express",
-          experience: "2 years",
-          details: "Microservice construction, API gateway design",
+          experience: "1 year",
+          details: "REST API development",
         },
         {
           name: "Vue.js",
-          experience: "2 years",
-          details: "Component design, state management",
+          experience: "1 year",
+          details: "SPA application development",
+        },
+        {
+          name: "Nuxt.js",
+          experience: "1 year",
+          details: "Component design",
         },
       ],
       tools: [
         {
           name: "Docker",
           experience: "4 years",
-          details:
-            "Multi-container environment setup, CI/CD pipeline integration",
+          details: "Multi-container environment setup, CI/CD pipeline integration",
         },
         {
-          name: "Git",
-          experience: "6 years",
-          details: "Complex merge strategies, workflow design",
+          name: "GitHub",
+          experience: "4 years",
+          details: "Merge strategies, workflow design",
         },
         {
           name: "AWS",
-          experience: "3 years",
-          details: "Experience with EC2, S3, Lambda, RDS, etc.",
+          experience: "4 years",
+          details: "Experience with VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch, etc.",
         },
         {
           name: "GCP",
           experience: "2 years",
-          details: "Utilizing Cloud Functions, BigQuery, GKE",
-        },
-        {
-          name: "Kubernetes",
-          experience: "2 years",
-          details: "Cluster management, deployment configuration",
+          details: "Experience with BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer, etc.",
         },
       ],
       others: [
         {
           name: "CI/CD",
-          experience: "3 years",
-          details: "GitHub Actions, Jenkins utilization experience",
-        },
-        {
-          name: "Agile Development",
           experience: "4 years",
-          details: "Scrum master experience, Kanban method practice",
+          details: "CodeDeploy, GitHub Actions",
         },
         {
           name: "Test Automation",
-          experience: "3 years",
-          details: "Test design with Jest, Cypress, PyTest",
+          experience: "4 years",
+          details: "Test design with pytest",
         },
         {
           name: "Microservices",
-          experience: "2 years",
+          experience: "4 years",
           details: "Service division design, API design",
         },
         {
+          name: "Project Management",
+          experience: "1 year",
+          details: "Project leader experience",
+        },
+        {
           name: "Data Modeling",
-          experience: "3 years",
+          experience: "1 year",
           details: "ER diagram design, normalization, performance optimization",
         },
       ],
