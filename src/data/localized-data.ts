@@ -368,12 +368,20 @@ export function useProfileData() {
   const outputs = {
     ja: [
       {
-        title: "React Hooksを使った状態管理の最適化",
+        title: "Python + BigQuery の始め方",
         type: "技術ブログ",
-        url: "https://example.com/blog/react-hooks",
-        date: "20XX/XX/XX",
+        url: "https://tech.revcomm.co.jp/get-started-bigquery-with-python",
+        date: "2022/12/6",
         description:
-          "ReactのuseReducerとuseContextを活用した効率的な状態管理パターンについて解説した記事。",
+          "BigQuery の環境構築に手こずった私自身の経験から、BigQuery テーブルの基本的な操作するまでの導入をご紹介します。",
+      },
+      {
+        title: "Python × Salesforce CPQ APIで商談～見積品目登録プロセスの自動化",
+        type: "技術ブログ",
+        url: "https://tech.revcomm.co.jp/salesforce-cpq-api",
+        date: "2024/12/20",
+        description:
+          "Salesforce CPQ API を利用し、「商談 → 見積 → 見積品目」までの流れを Python で自動化する手法をご紹介します。",
       },
       {
         title: "Pythonによる効率的なデータ処理パイプラインの構築",
