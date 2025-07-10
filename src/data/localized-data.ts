@@ -368,12 +368,20 @@ export function useProfileData() {
   const outputs = {
     ja: [
       {
-        title: "Python + BigQuery の始め方",
-        type: "技術ブログ",
-        url: "https://tech.revcomm.co.jp/get-started-bigquery-with-python",
-        date: "2022/12/6",
+        title: "ネットワークスペシャリスト受けてきた",
+        type: "Qiita",
+        url: "https://qiita.com/ken-1200/items/6fd4c31c981c85badf1f",
+        date: "2025/05/08",
         description:
-          "BigQuery の環境構築に手こずった私自身の経験から、BigQuery テーブルの基本的な操作するまでの導入をご紹介します。",
+          "ネットワークスペシャリスト試験の受験体験と学習方法、試験対策についてまとめました。",
+      },
+      {
+        title: "データベース設計 E-R図とデータモデルの表現",
+        type: "Qiita",
+        url: "https://qiita.com/ken-1200/items/23c6984b11afe964b37f",
+        date: "2024/12/20",
+        description:
+          "データベース設計における E-R 図とデータモデルの表現方法について、具体例を交えて解説します。",
       },
       {
         title: "Python × Salesforce CPQ APIで商談～見積品目登録プロセスの自動化",
@@ -384,46 +392,62 @@ export function useProfileData() {
           "Salesforce CPQ API を利用し、「商談 → 見積 → 見積品目」までの流れを Python で自動化する手法をご紹介します。",
       },
       {
-        title: "Pythonによる効率的なデータ処理パイプラインの構築",
-        type: "Qiita",
-        url: "https://qiita.com/username/items/xxxx",
-        date: "20XX/XX/XX",
+        title: "AWS CodeBuild で PR の差分を取得する",
+        type: "Zenn",
+        url: "https://zenn.dev/ken_1200/articles/d023cb41d21f6a",
+        date: "2024/06/26",
         description:
-          "大規模データ処理を効率化するためのPythonパイプライン実装についての知見を共有。",
+          "AWS CodeBuild を利用して、Pull Request の差分を取得する方法とその活用事例について解説します。",
       },
       {
-        title: "マイクロサービスアーキテクチャ導入の実践と課題",
-        type: "Zenn",
-        url: "https://zenn.dev/username/articles/xxxx",
-        date: "20XX/XX/XX",
+        title: "Python + BigQuery の始め方",
+        type: "技術ブログ",
+        url: "https://tech.revcomm.co.jp/get-started-bigquery-with-python",
+        date: "2022/12/6",
         description:
-          "モノリスからマイクロサービスへの移行プロセスと、直面した課題および解決策について詳述。",
+          "BigQuery の環境構築に手こずった私自身の経験から、BigQuery テーブルの基本的な操作するまでの導入をご紹介します。",
       },
     ],
     en: [
       {
-        title: "Optimizing State Management with React Hooks",
-        type: "Technical Blog",
-        url: "https://example.com/blog/react-hooks",
-        date: "20XX/XX/XX",
-        description:
-          "An article explaining efficient state management patterns using React's useReducer and useContext.",
-      },
-      {
-        title: "Building Efficient Data Processing Pipelines with Python",
+        title: "Taking the Network Specialist Exam",
         type: "Qiita",
-        url: "https://qiita.com/username/items/xxxx",
-        date: "20XX/XX/XX",
+        url: "https://qiita.com/ken-1200/items/6fd4c31c981c85badf1f",
+        date: "2025/05/08",
         description:
-          "Sharing insights on Python pipeline implementation for efficient large-scale data processing.",
+          "Summary of my experience taking the Network Specialist exam, study methods, and exam strategies.",
       },
       {
-        title: "Implementation and Challenges of Microservice Architecture",
-        type: "Zenn",
-        url: "https://zenn.dev/username/articles/xxxx",
-        date: "20XX/XX/XX",
+        title: "Database Design: E-R Diagrams and Data Model Representation",
+        type: "Qiita",
+        url: "https://qiita.com/ken-1200/items/23c6984b11afe964b37f",
+        date: "2024/12/20",
         description:
-          "Detailing the migration process from monolith to microservices, challenges faced, and solutions.",
+          "Explanation of E-R diagrams and data model representation methods in database design with concrete examples.",
+      },
+      {
+        title: "Automating Opportunity to Quote Line Item Process with Python × Salesforce CPQ API",
+        type: "Technical Blog",
+        url: "https://tech.revcomm.co.jp/salesforce-cpq-api",
+        date: "2024/12/20",
+        description:
+          "Introduction to automating the flow from 'Opportunity → Quote → Quote Line Item' using Salesforce CPQ API with Python.",
+      },
+      {
+        title: "Getting PR Differences with AWS CodeBuild",
+        type: "Zenn",
+        url: "https://zenn.dev/ken_1200/articles/d023cb41d21f6a",
+        date: "2024/06/26",
+        description:
+          "Explanation of how to retrieve Pull Request differences using AWS CodeBuild and practical use cases.",
+      },
+      {
+        title: "Getting Started with Python + BigQuery",
+        type: "Technical Blog",
+        url: "https://tech.revcomm.co.jp/get-started-bigquery-with-python",
+        date: "2022/12/6",
+        description:
+          "Introduction to basic BigQuery table operations based on my experience struggling with BigQuery environment setup.",
       },
     ],
   };
