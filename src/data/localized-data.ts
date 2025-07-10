@@ -10,7 +10,7 @@ export function useProfileData() {
       birth: "1997/10/22",
       address: "東京都〇〇区〇〇町",
       phone: "090-xxxx-xxxx",
-      email: "machidahouse.lab@gmail.com",
+      email: "ken-1200@example.com",
       github: "ken-1200",
       linkedin: "kensuke-machida",
     },
@@ -19,7 +19,7 @@ export function useProfileData() {
       birth: "10/22/1997",
       address: "XX Town, XX District, Tokyo",
       phone: "090-xxxx-xxxx",
-      email: "machidahouse.lab@gmail.com",
+      email: "ken-1200@example.com",
       github: "ken-1200",
       linkedin: "kensuke-machida",
     },
@@ -258,7 +258,7 @@ export function useProfileData() {
         {
           name: "プロジェクト管理",
           experience: "2年",
-          details: "プロジェクトリーダー経験、プロジェクト進行管理、コミュニケーション能力",
+          details: "プロジェクトリーダー経験、プロジェクト進行管理",
         },
         {
           name: "その他",
@@ -353,7 +353,7 @@ export function useProfileData() {
         {
           name: "Project Management",
           experience: "2 years",
-          details: "Project leader experience, project progress management, communication skills",
+          details: "Project leader experience, project progress management",
         },
         {
           name: "Others",
