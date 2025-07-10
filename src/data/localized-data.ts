@@ -8,7 +8,7 @@ export function useProfileData() {
     ja: {
       name: "町田 健輔",
       birth: "1997/10/22",
-      address: "東京都〇〇区〇〇町",
+      address: "東京都",
       phone: "090-xxxx-xxxx",
       email: "ken-1200@example.com",
       github: "ken-1200",
@@ -17,7 +17,7 @@ export function useProfileData() {
     en: {
       name: "Kensuke Machida",
       birth: "10/22/1997",
-      address: "XX Town, XX District, Tokyo",
+      address: "Tokyo",
       phone: "090-xxxx-xxxx",
       email: "ken-1200@example.com",
       github: "ken-1200",
