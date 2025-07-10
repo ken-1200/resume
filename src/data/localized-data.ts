@@ -88,6 +88,61 @@ export function useProfileData() {
           },
         ],
       },
+      {
+        companyName: "C株式会社",
+        period: "20XX/XX ～ 20XX/XX",
+        position: "ソフトウェアエンジニア",
+        responsibilities: [
+          "社内ツールや自動化スクリプトの開発",
+          "クロスファンクショナルチームとの連携",
+          "開発効率を30%向上",
+        ],
+        projects: [
+          {
+            title: "社内ツール開発",
+            period: "20XX/XX ～ 20XX/XX",
+            summary: "社内業務改善のためのツール開発",
+            details: ["定型業務の自動化", "データ可視化ツール"],
+            technologies: ["Python", "Flask", "JavaScript"],
+          },
+          {
+            title: "API統合プロジェクト",
+            period: "20XX/XX ～ 20XX/XX",
+            summary: "外部APIを利用したデータ取得の統合",
+            details: ["API設計と実装", "エラーハンドリングとロギング"],
+            technologies: ["Node.js", "Express", "PostgreSQL"],
+          },
+        ],
+      },
+      {
+        companyName: "D株式会社",
+        period: "20XX/XX ～ 20XX/XX",
+        position: "データエンジニア",
+        responsibilities: [
+          "データパイプラインの設計・実装",
+          "データサイエンティストとのモデル開発連携",
+          "データ品質と整合性の確保",
+        ],
+        projects: [
+          {
+            title: "データパイプライン開発",
+            period: "20XX/XX ～ 20XX/XX",
+            summary: "リアルタイム分析用のデータパイプライン開発",
+            details: ["ETLプロセスの自動化", "データ変換とロード"],
+            technologies: ["Apache Airflow", "Spark", "Kafka"],
+          },
+          {
+            title: "機械学習モデルのデプロイメント",
+            period: "20XX/XX ～ 20XX/XX",
+            summary: "機械学習モデルを本番環境にデプロイメントするプロジェクト",
+            details: [
+              "モデルの監視とパフォーマンスチューニング",
+              "スケーラビリティの向上",
+            ],
+            technologies: ["Docker", "Kubernetes", "TensorFlow"],
+          },
+        ],
+      },
     ],
     en: [
       {
@@ -154,6 +209,58 @@ export function useProfileData() {
               "ETL pipeline development",
             ],
             technologies: ["Python", "BigQuery", "Airflow"],
+          },
+        ],
+      },
+      {
+        companyName: "Company C",
+        period: "20XX/XX - 20XX/XX",
+        position: "Software Engineer",
+        responsibilities: [
+          "Development of internal tools and automation scripts",
+          "Collaboration with cross-functional teams",
+          "Improved development efficiency by 30%",
+        ],
+        projects: [
+          {
+            title: "Internal Tool Development",
+            period: "20XX/XX - 20XX/XX",
+            summary: "Development of tools to improve internal operations",
+            details: ["Automation of repetitive tasks", "Data visualization tools"],
+            technologies: ["Python", "Flask", "JavaScript"],
+          },
+          {
+            title: "API Integration Project",
+            period: "20XX/XX - 20XX/XX",
+            summary: "Integration of external APIs for data retrieval",
+            details: ["API design and implementation", "Error handling and logging"],
+            technologies: ["Node.js", "Express", "PostgreSQL"],
+          },
+        ],
+      },
+      {
+        companyName: "Company D",
+        period: "20XX/XX - 20XX/XX",
+        position: "Data Engineer",
+        responsibilities: [
+          "Design and implementation of data pipelines",
+          "Collaboration with data scientists for model development",
+          "Ensured data quality and integrity",
+        ],
+        projects: [
+          {
+            title: "Data Pipeline Development",
+            period: "20XX/XX - 20XX/XX",
+            summary: "Development of data pipelines for real-time analytics",
+            details: ["ETL process automation", "Data transformation and loading"],
+            technologies: ["Apache Airflow", "Spark", "Kafka"],
+          },
+          {
+            title: "Machine Learning Model Deployment",
+            period: "20XX/XX - 20XX/XX",
+            summary: "Deployment of machine learning models into production",
+            details: ["Model monitoring and performance tuning", "Scalability improvements"],
+            technologies: ["Docker", "Kubernetes", "TensorFlow"],
           },
         ],
       },
