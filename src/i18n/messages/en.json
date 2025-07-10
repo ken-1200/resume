@@ -41,18 +41,6 @@
         "responsibilities": "Responsibilities",
         "technologies": "Technologies"
     },
-    "skillDetail": {
-        "relatedProjects": "Related Projects",
-        "python": {
-            "dataAnalysis": "Data Analysis Platform Construction",
-            "automation": "Automation Script Development"
-        },
-        "react": {
-            "webService": "Web Service Development Project",
-            "adminUI": "Admin UI Renewal"
-        },
-        "utilization": "Application in Related Work"
-    },
     "outputs": {
         "openLink": "Open link"
     },

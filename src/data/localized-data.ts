@@ -167,20 +167,35 @@ export function useProfileData() {
         {
           name: "Python",
           experience: "4年",
-          details: "バックエンド開発、自動化スクリプト作成、AI関連開発（MCP Server, OpenAI API）",
+          details: "バックエンド開発、自動化スクリプト作成、AI関連開発（MCP Server）",
         },
         {
           name: "TypeScript",
           experience: "4年",
-          details: "フロントエンド・バックエンド開発、型安全な実装、React/Next.js/Node.js環境",
+          details: "フロントエンド・バックエンド開発、型安全な実装",
         },
         {
           name: "SQL",
           experience: "4年",
-          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL、クエリ、パフォーマンスチューニング",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQLを用いたクエリ作成、ER図設計、パフォーマンス最適化、、データベース設計、正規化",
         },
       ],
       frameworks: [
+        {
+          name: "Django",
+          experience: "4年",
+          details: "REST API開発、認証システム実装、Django REST Framework",
+        },
+        {
+          name: "FastAPI",
+          experience: "4年",
+          details: "REST API開発、マイクロサービス構築、非同期処理、並列処理",
+        },
+        {
+          name: "Express",
+          experience: "1年",
+          details: "REST API開発",
+        },
         {
           name: "React",
           experience: "4年",
@@ -190,21 +205,6 @@ export function useProfileData() {
           name: "Next.js",
           experience: "1年",
           details: "SPAアプリケーション開発、App Router",
-        },
-        {
-          name: "Django",
-          experience: "4年",
-          details: "REST API開発、認証システム実装、Django REST Framework",
-        },
-        {
-          name: "FastAPI",
-          experience: "4年",
-          details: "REST API開発、マイクロサービス構築、非同期処理",
-        },
-        {
-          name: "Express",
-          experience: "1年",
-          details: "REST API開発",
         },
         {
           name: "Vue.js",
@@ -243,12 +243,12 @@ export function useProfileData() {
         {
           name: "CI/CD",
           experience: "4年",
-          details: "CodeDeploy, GitHub Actions",
+          details: "CodeDeploy, GitHub Actions等の利用経験",
         },
         {
           name: "テスト自動化",
           experience: "4年",
-          details: "pytestでのテスト設計、単体テスト、統合テスト、カバレッジ管理",
+          details: "テスト設計、単体テスト、統合テスト、カバレッジ管理",
         },
         {
           name: "マイクロサービス",
@@ -257,13 +257,13 @@ export function useProfileData() {
         },
         {
           name: "プロジェクト管理",
-          experience: "1年",
-          details: "プロジェクトリーダー経験",
+          experience: "2年",
+          details: "プロジェクトリーダー経験、プロジェクト進行管理、コミュニケーション能力",
         },
         {
-          name: "データモデリング",
+          name: "その他",
           experience: "1年",
-          details: "ER図設計、正規化、パフォーマンス最適化",
+          details: "カオスエンジニアリング, 負荷テスト, 監視・ログ分析, SRE",
         },
       ],
     },
@@ -272,30 +272,20 @@ export function useProfileData() {
         {
           name: "Python",
           experience: "4 years",
-          details: "Backend development, automation scripts, AI-related development (MCP Server, OpenAI API)",
+          details: "Backend development, automation scripts, AI-related development (MCP Server)",
         },
         {
           name: "TypeScript",
           experience: "4 years",
-          details: "Frontend and backend development, type-safe implementation, React/Next.js/Node.js environments",
+          details: "Frontend and backend development, type-safe implementation",
         },
         {
           name: "SQL",
           experience: "4 years",
-          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL, queries, performance tuning",
+          details: "Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL query creation, ER diagram design, performance optimization, database design, normalization",
         },
       ],
       frameworks: [
-        {
-          name: "React",
-          experience: "4 years",
-          details: "SPA application development, custom hook implementation, component design",
-        },
-        {
-          name: "Next.js",
-          experience: "1 year",
-          details: "SPA application development, App Router",
-        },
         {
           name: "Django",
           experience: "4 years",
@@ -304,7 +294,7 @@ export function useProfileData() {
         {
           name: "FastAPI",
           experience: "4 years",
-          details: "REST API development, microservice construction, asynchronous processing",
+          details: "REST API development, microservice construction, asynchronous processing, parallel processing",
         },
         {
           name: "Express",
@@ -348,12 +338,12 @@ export function useProfileData() {
         {
           name: "CI/CD",
           experience: "4 years",
-          details: "CodeDeploy, GitHub Actions",
+          details: "Experience with CodeDeploy, GitHub Actions, etc.",
         },
         {
           name: "Test Automation",
           experience: "4 years",
-          details: "Test design with pytest, unit testing, integration testing, coverage management",
+          details: "Test design, unit testing, integration testing, coverage management",
         },
         {
           name: "Microservices",
@@ -362,13 +352,13 @@ export function useProfileData() {
         },
         {
           name: "Project Management",
-          experience: "1 year",
-          details: "Project leader experience",
+          experience: "2 years",
+          details: "Project leader experience, project progress management, communication skills",
         },
         {
-          name: "Data Modeling",
+          name: "Others",
           experience: "1 year",
-          details: "ER diagram design, normalization, performance optimization",
+          details: "Chaos engineering, load testing, monitoring and log analysis, SRE",
         },
       ],
     },

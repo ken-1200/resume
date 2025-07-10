@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { Code, Layers, Settings, Wrench } from "lucide-react";
 import { Separator } from "@/src/components/ui/separator";
 import { Badge } from "@/src/components/ui/badge";
@@ -54,8 +53,6 @@ export default function SkillDetailCard({
   category,
   locale,
 }: SkillDetailProps) {
-  const t = useTranslations("skillDetail");
-
   const isMobile = useMediaQuery("(max-width: 768px)");
 
   // モバイルではDialogを使用、デスクトップではTooltipを使用
@@ -86,28 +83,6 @@ export default function SkillDetailCard({
             <p className="leading-relaxed text-slate-700 dark:text-neutral-200">
               {skill.details}
             </p>
-
-            {/* 追加情報セクション - モバイル用の追加コンテンツ */}
-            <div className="mt-2 p-3 rounded-md bg-slate-100 dark:bg-neutral-700/20 border">
-              <h4 className="text-sm font-medium mb-2">
-                {t("relatedProjects")}
-              </h4>
-              <ul className="list-disc pl-5 space-y-1 text-sm">
-                {category === "programming" && skill.name === "Python" && (
-                  <>
-                    <li>{t("python.dataAnalysis")}</li>
-                    <li>{t("python.automation")}</li>
-                  </>
-                )}
-                {category === "frameworks" && skill.name === "React" && (
-                  <>
-                    <li>{t("react.webService")}</li>
-                    <li>{t("react.adminUI")}</li>
-                  </>
-                )}
-                <li>{t("utilization")}</li>
-              </ul>
-            </div>
           </div>
         </DialogContent>
       </Dialog>
