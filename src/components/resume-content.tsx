@@ -539,7 +539,7 @@ export default function ResumeContent() {
                         </span>
                         <span>{profile.phone}</span>
                       </div> */}
-                      <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      {/* <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                         <span
                           className={`${
                             locale === "en" ? "w-32" : "w-24"
@@ -549,7 +549,7 @@ export default function ResumeContent() {
                           {t("profile.email")}:
                         </span>
                         <span>{profile.email}</span>
-                      </div>
+                      </div> */}
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2">
                         <span
                           className={`${
