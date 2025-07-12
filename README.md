@@ -29,17 +29,20 @@ A modern, internationalized personal resume website built with Next.js.
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd resume
    ```
 
 2. Install dependencies:
+
    ```bash
    pnpm install
    ```
 
 3. Start the development server:
+
    ```bash
    pnpm dev
    ```
@@ -48,7 +51,7 @@ A modern, internationalized personal resume website built with Next.js.
 
 ## Project Structure
 
-```
+```text
 resume/
 ├── src/
 │   ├── app/                  # Next.js app router
@@ -126,17 +129,20 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 ### インストール
 
 1. リポジトリをクローン:
+
    ```bash
    git clone <repository-url>
    cd resume
    ```
 
 2. 依存関係のインストール:
+
    ```bash
    pnpm install
    ```
 
 3. 開発サーバーの起動:
+
    ```bash
    pnpm dev
    ```
@@ -145,7 +151,7 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 
 ## プロジェクト構造
 
-```
+```text
 resume/
 ├── src/
 │   ├── app/                  # Next.jsアプリルーター
@@ -164,7 +170,6 @@ resume/
 ├── next.config.ts            # Next.js設定
 └── package.json              # 依存関係とスクリプト
 ```
-
 
 ## i18nサポート
 
