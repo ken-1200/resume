@@ -1,50 +1,50 @@
 {
-    "locale": "en",
-    "metadata": {
-        "title": "Resume",
-        "description": "This document summarizes my work history, skills, and strengths."
-    },
-    "common": {
-        "resume": "Resume",
-        "toggleTheme": "Toggle theme",
-        "underConstruction": "This resume is a sample",
-        "draft": "DRAFT"
-    },
-    "navigation": {
-        "toc": "Table of Contents",
-        "open": "Open table of contents",
-        "close": "Close table of contents",
-        "instruction": "Select a section to scroll to that area",
-        "current": "Current",
-        "aria": "Table of contents navigation",
-        "scrollToTop": "Scroll to top of page"
-    },
-    "sections": {
-        "profile": "Profile",
-        "strengths": "Strengths",
-        "skills": "Skills & Knowledge",
-        "workHistory": "Work History",
-        "outputs": "Outputs"
-    },
-    "profile": {
-        "name": "Name",
-        "birth": "Date of Birth",
-        "address": "Address",
-        "phone": "Phone",
-        "email": "Email"
-    },
-    "workHistory": {
-        "responsibilities": "Responsibilities",
-        "projects": "Projects"
-    },
-    "project": {
-        "responsibilities": "Responsibilities",
-        "technologies": "Technologies"
-    },
-    "outputs": {
-        "openLink": "Open link"
-    },
-    "footer": {
-        "rights": "All rights reserved."
-    }
+  "locale": "en",
+  "metadata": {
+    "title": "Resume",
+    "description": "This document summarizes my work history, skills, and strengths."
+  },
+  "common": {
+    "resume": "Resume",
+    "toggleTheme": "Toggle theme",
+    "underConstruction": "This resume is a sample",
+    "draft": "DRAFT"
+  },
+  "navigation": {
+    "toc": "Table of Contents",
+    "open": "Open table of contents",
+    "close": "Close table of contents",
+    "instruction": "Select a section to scroll to that area",
+    "current": "Current",
+    "aria": "Table of contents navigation",
+    "scrollToTop": "Scroll to top of page"
+  },
+  "sections": {
+    "profile": "Profile",
+    "strengths": "Strengths",
+    "skills": "Skills & Knowledge",
+    "workHistory": "Work History",
+    "outputs": "Outputs"
+  },
+  "profile": {
+    "name": "Name",
+    "birth": "Date of Birth",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "workHistory": {
+    "responsibilities": "Responsibilities",
+    "projects": "Projects"
+  },
+  "project": {
+    "responsibilities": "Responsibilities",
+    "technologies": "Technologies"
+  },
+  "outputs": {
+    "openLink": "Open link"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
 }

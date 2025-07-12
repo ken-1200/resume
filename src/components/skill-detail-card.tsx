@@ -1,14 +1,9 @@
-"use client";
+'use client';
 
-import { Code, Layers, Settings, Wrench } from "lucide-react";
-import { Separator } from "@/src/components/ui/separator";
-import { Badge } from "@/src/components/ui/badge";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/src/components/ui/tooltip";
+import { Code, Layers, Settings, Wrench } from 'lucide-react';
+import { Separator } from '@/src/components/ui/separator';
+import { Badge } from '@/src/components/ui/badge';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/src/components/ui/tooltip';
 import {
   Dialog,
   DialogContent,
@@ -16,21 +11,21 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/src/components/ui/dialog";
+} from '@/src/components/ui/dialog';
 
-import useMediaQuery from "@/src/hooks/use-media-query";
-import { getCategoryName } from "@/src/lib/utils";
+import useMediaQuery from '@/src/hooks/use-media-query';
+import { getCategoryName } from '@/src/lib/utils';
 
 // カテゴリごとにアイコンを取得する関数
 const getCategoryIcon = (category: string) => {
   switch (category) {
-    case "programming":
+    case 'programming':
       return <Code className="h-3.5 w-3.5 text-primary" />;
-    case "frameworks":
+    case 'frameworks':
       return <Layers className="h-3.5 w-3.5 text-primary" />;
-    case "tools":
+    case 'tools':
       return <Wrench className="h-3.5 w-3.5 text-primary" />;
-    case "others":
+    case 'others':
       return <Settings className="h-3.5 w-3.5 text-primary" />;
     default:
       return null;
@@ -48,12 +43,8 @@ interface SkillDetailProps {
   locale: string;
 }
 
-export default function SkillDetailCard({
-  skill,
-  category,
-  locale,
-}: SkillDetailProps) {
-  const isMobile = useMediaQuery("(max-width: 768px)");
+export default function SkillDetailCard({ skill, category, locale }: SkillDetailProps) {
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   // モバイルではDialogを使用、デスクトップではTooltipを使用
   if (isMobile) {
@@ -71,18 +62,14 @@ export default function SkillDetailCard({
           <DialogHeader>
             <DialogTitle className="flex items-center gap-2">
               {getCategoryIcon(category)}
-              <span className="text-slate-900 dark:text-white">
-                {skill.name}
-              </span>
+              <span className="text-slate-900 dark:text-white">{skill.name}</span>
             </DialogTitle>
             <DialogDescription>
               {getCategoryName(category, locale)} • {skill.experience}
             </DialogDescription>
           </DialogHeader>
           <div className="space-y-4 pt-3">
-            <p className="leading-relaxed text-slate-700 dark:text-neutral-200">
-              {skill.details}
-            </p>
+            <p className="leading-relaxed text-slate-700 dark:text-neutral-200">{skill.details}</p>
           </div>
         </DialogContent>
       </Dialog>
@@ -111,9 +98,7 @@ export default function SkillDetailCard({
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-1.5">
                 {getCategoryIcon(category)}
-                <p className="font-bold text-base text-slate-900 dark:text-white">
-                  {skill.name}
-                </p>
+                <p className="font-bold text-base text-slate-900 dark:text-white">{skill.name}</p>
               </div>
               <Badge variant="secondary" className="ml-2 text-xs font-medium">
                 {skill.experience}
@@ -121,9 +106,7 @@ export default function SkillDetailCard({
             </div>
             <Separator className="bg-slate-200 dark:bg-neutral-700" />
             <div className="pt-1">
-              <p className="text-sm leading-relaxed text-slate-700 dark:text-neutral-200">
-                {skill.details}
-              </p>
+              <p className="text-sm leading-relaxed text-slate-700 dark:text-neutral-200">{skill.details}</p>
             </div>
           </div>
         </TooltipContent>
