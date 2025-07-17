@@ -63,15 +63,13 @@ export function useProfileData() {
       {
         companyName: '株式会社RevComm',
         period: '2021/07 ～ 現在',
-        position: 'ソフトウェアエンジニア / プロジェクトマネージャー',
+        position: 'ソフトウェアエンジニア',
         responsibilities: [
-          'プロジェクトマネージャーとしてチームの進捗管理と要件定義・設計・実装を担当',
-          'チームメンバーへのタスク分割と進行管理による効率的なプロジェクト推進',
-          'VPCやDB移行などの重要なインフラタスクを遅延なく完了',
-          'AWS Batchを活用した効率的なバッチ処理システムの構築',
-          '請求書発行システムの要件定義から運用までをリード',
-          '顧客要求の理解とシステム改善提案による業務効率化の実現',
-          'メンバーの退職時の柔軟な引き継ぎ対応とプロジェクト安定化',
+          'プロジェクトマネージャーとして複数プロジェクトの推進と管理',
+          'チームメンバーのタスク管理と技術的リーダーシップの発揮',
+          '他部門との連携と調整',
+          'システムアーキテクチャ設計と技術選定',
+          '利用者のニーズを理解し、改善提案と業務効率化の実現',
         ],
         projects: [
           {
@@ -83,11 +81,11 @@ export function useProfileData() {
               '週次MTGを通じた進捗管理と課題解決',
               'メンバーの退職にも柔軟に対応し、プロジェクトを予定通り完了',
             ],
-            technologies: ['AWS', 'GCP', 'データベース移行', 'マイクロサービス'],
+            technologies: ['AWS', 'GCP', 'データベース移行', 'マイクロサービス移行'],
           },
           {
-            title: '通話料計算システムのリプレイス',
-            period: '2022/01 ～ 現在',
+            title: '通話料計算システムのリプレイス・新機能追加',
+            period: '2021/10 ～ 2025/04',
             summary: 'レガシーシステムからの全面リプレイスと新機能追加を担当',
             details: [
               'AWS Batchを活用した効率的なバッチ処理システムの構築',
@@ -99,8 +97,8 @@ export function useProfileData() {
             technologies: ['Python', 'AWS Batch', 'PostgreSQL', 'クリーンアーキテクチャ'],
           },
           {
-            title: '請求書発行・管理システム',
-            period: '2023/07 ～ 2024/01',
+            title: '請求書発行システム開発',
+            period: '2023/03 ～ 2023/06',
             summary: 'テックチーム横断プロジェクトのリーダーとして新システムを開発',
             details: [
               '要件定義から運用までの全工程を担当',
@@ -201,32 +199,29 @@ export function useProfileData() {
       {
         companyName: 'RevComm Inc.',
         period: '2021/07 - Present',
-        position: 'Software Engineer / Project Manager',
+        position: 'Software Engineer',
         responsibilities: [
-          'Leading team progress management and handling requirements definition, design, and implementation as PM',
-          'Efficiently driving projects through task allocation and progress management for team members',
-          'Completing critical infrastructure tasks including VPC and database migrations without delays',
-          'Building efficient batch processing systems utilizing AWS Batch',
-          'Leading invoice issuance system development from requirements to operation',
-          'Understanding customer requirements and implementing system improvements for operational efficiency',
-          'Managing flexible handovers during member transitions and ensuring project stability',
+          'Leading and managing multiple projects as Project Manager',
+          'Providing technical leadership and managing team member tasks',
+          'Coordinating and collaborating with other departments',
+          'Designing system architecture and making technology decisions',
+          'Understanding user needs and realizing improvement proposals and operational efficiency',
         ],
         projects: [
           {
             title: 'Infrastructure Migration Project (PoD/FO)',
             period: '2024/11 - 2025/06',
-            summary:
-              'Managed a 3-person team as PM, implementing large-scale infrastructure improvements including VPC and DB migration',
+            summary: 'Managed a 3-person team as PM, implementing large-scale infrastructure improvements including VPC and DB migration',
             details: [
               'Led project management, infrastructure improvement, and network migration',
               'Conducted progress management and issue resolution through weekly meetings',
               'Flexibly handled member transitions and completed project on schedule',
             ],
-            technologies: ['AWS', 'GCP', 'Database Migration', 'Microservices'],
+            technologies: ['AWS', 'GCP', 'Database Migration', 'Microservices Migration'],
           },
           {
-            title: 'Call Billing System Replacement',
-            period: '2022/01 - Present',
+            title: 'Call Billing System Replacement and New Feature Addition',
+            period: '2021/10 - 2025/04',
             summary: 'Handled complete replacement from legacy system and new feature additions',
             details: [
               'Built efficient batch processing system using AWS Batch',
@@ -238,8 +233,8 @@ export function useProfileData() {
             technologies: ['Python', 'AWS Batch', 'PostgreSQL', 'Clean Architecture'],
           },
           {
-            title: 'Invoice Issuance and Management System',
-            period: '2023/07 - 2024/01',
+            title: 'Invoice Issuance System Development',
+            period: '2023/03 - 2023/06',
             summary: 'Led cross-tech team project to develop new system',
             details: [
               'Handled entire process from requirements definition to operation',
