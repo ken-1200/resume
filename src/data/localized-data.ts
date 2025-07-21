@@ -206,7 +206,7 @@ export function useProfileData() {
         ],
       },
       {
-        companyName: '株式会社find',
+        companyName: '株式会社find（副業）',
         period: '2023/02 ～ 2023/04',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
@@ -229,9 +229,9 @@ export function useProfileData() {
         ],
       },
       {
-        companyName: 'D株式会社',
-        period: '20XX/XX ～ 20XX/XX',
-        position: 'データエンジニア',
+        companyName: 'Pathfinder株式会社（副業）',
+        period: '2023/12 ～ 2024/12',
+        position: 'ソフトウェアエンジニア',
         responsibilities: [
           'データパイプラインの設計・実装',
           'データサイエンティストとのモデル開発連携',
@@ -435,7 +435,7 @@ export function useProfileData() {
         ],
       },
       {
-        companyName: 'find Inc.',
+        companyName: 'find Inc. (Side Project)',
         period: '2023/02 - 2023/04',
         position: 'Software Engineer',
         responsibilities: [
@@ -458,13 +458,13 @@ export function useProfileData() {
         ],
       },
       {
-        companyName: 'Company D',
-        period: '20XX/XX - 20XX/XX',
-        position: 'Data Engineer',
+        companyName: 'Pathfinder Inc. (Side Project)',
+        period: '2023/12 - 2024/12',
+        position: 'Software Engineer',
         responsibilities: [
           'Design and implementation of data pipelines',
           'Collaboration with data scientists for model development',
-          'Ensured data quality and integrity',
+          'Ensuring data quality and integrity',
         ],
         projects: [
           {
