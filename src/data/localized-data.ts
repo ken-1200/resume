@@ -241,11 +241,16 @@ export function useProfileData() {
         ],
         projects: [
           {
-            title: 'データパイプライン開発',
-            period: '20XX/XX ～ 20XX/XX',
-            summary: 'リアルタイム分析用のデータパイプライン開発',
-            details: ['ETLプロセスの自動化', 'データ変換とロード'],
-            technologies: ['Apache Airflow', 'Spark', 'Kafka'],
+            title: 'eKYC申請機能開発プロジェクト',
+            period: '2024/01 ～ 2024/02',
+            summary: '外部eKYCサービスを活用した本人確認システムの構築',
+            details: [
+              'eKYC機能のフロントエンドおよびバックエンド開発',
+              '外部eKYCサービスを用いた免許証登録機能の実装',
+              'データベース設計、ステータス管理およびロジック設計の実施',
+              'eKYC申請データの処理および確認フローの設計',
+            ],
+            technologies: ['TypeScript', 'React', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
             title: '機械学習モデルのデプロイメント',
@@ -495,11 +500,16 @@ export function useProfileData() {
         ],
         projects: [
           {
-            title: 'Data Pipeline Development',
-            period: '20XX/XX - 20XX/XX',
-            summary: 'Development of data pipelines for real-time analytics',
-            details: ['ETL process automation', 'Data transformation and loading'],
-            technologies: ['Apache Airflow', 'Spark', 'Kafka'],
+            title: 'eKYC Application Feature Development',
+            period: '2024/01 - 2024/02',
+            summary: 'Identity verification system development using external eKYC service',
+            details: [
+              'Frontend and backend development for eKYC functionality',
+              'License registration feature implementation using external eKYC service',
+              'Database design, status management and logic design implementation',
+              'eKYC application data processing and verification flow design',
+            ],
+            technologies: ['TypeScript', 'React', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
             title: 'Machine Learning Model Deployment',
