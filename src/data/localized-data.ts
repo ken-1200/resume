@@ -435,7 +435,7 @@ export function useProfileData() {
         ],
       },
       {
-        companyName: 'Company C',
+        companyName: 'find Inc.',
         period: '2023/02 - 2023/04',
         position: 'Software Engineer',
         responsibilities: [
