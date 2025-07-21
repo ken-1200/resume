@@ -233,9 +233,11 @@ export function useProfileData() {
         period: '2023/12 ～ 2024/12',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
-          'データパイプラインの設計・実装',
-          'データサイエンティストとのモデル開発連携',
-          'データ品質と整合性の確保',
+          'eKYCを活用した本人確認システムの実装',
+          'AWSイベント駆動アーキテクチャの設計と実装',
+          'データベース・API設計およびフロントエンド開発',
+          '外部API連携とビジネスロジック実装',
+          'ビジネスチームとの協業による運用効率化',
         ],
         projects: [
           {
@@ -485,9 +487,11 @@ export function useProfileData() {
         period: '2023/12 - 2024/12',
         position: 'Software Engineer',
         responsibilities: [
-          'Design and implementation of data pipelines',
-          'Collaboration with data scientists for model development',
-          'Ensuring data quality and integrity',
+          'Identity verification system implementation using eKYC',
+          'AWS event-driven architecture design and implementation',
+          'Database and API design with frontend development',
+          'External API integration and business logic implementation',
+          'Collaboration with business teams for operational efficiency',
         ],
         projects: [
           {
