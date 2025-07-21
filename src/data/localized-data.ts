@@ -277,11 +277,17 @@ export function useProfileData() {
             ],
           },
           {
-            title: '同乗者情報の登録プロジェクト',
+            title: '同乗者情報登録システム開発プロジェクト',
             period: '2024/05 ～ 2024/06',
-            summary: '',
-            details: [],
-            technologies: [],
+            summary: '企業向け車両予約サービスに対応した同乗者情報管理システムの構築',
+            details: [
+              '予約確認画面における保証項目の非表示・規約同意チェック機能の追加',
+              '同乗者情報のDB設計および一時保存機構の導入',
+              'ユーザー情報と一時情報のエンティティ設計とAPI連携処理の開発',
+              'バリデーション・UX設計を含むReactコンポーネントの実装',
+              '車両・路線組み合わせベースの判定ロジック設計',
+            ],
+            technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
             title: 'アフィリエイト・ポイント連携機能開発プロジェクト',
@@ -573,11 +579,17 @@ export function useProfileData() {
             ],
           },
           {
-            title: 'Passenger Information Registration Project',
+            title: 'Passenger Information Registration System Development Project',
             period: '2024/05 - 2024/06',
-            summary: '',
-            details: [],
-            technologies: [],
+            summary: 'Passenger information management system development for corporate vehicle booking services',
+            details: [
+              'Addition of warranty item hiding and agreement check features in booking confirmation screen',
+              'Database design for passenger information and introduction of temporary storage mechanism',
+              'User information and temporary information entity design and API integration development',
+              'React component implementation including validation and UX design',
+              'Vehicle and route combination-based determination logic design',
+            ],
+            technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
             title: 'Affiliate Point Integration Feature Development Project',
