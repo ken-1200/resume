@@ -216,7 +216,7 @@ export function useProfileData() {
         ],
         projects: [
           {
-            title: '検索サービスUI再設計・実装プロジェクト',
+            title: 'UIコンポーネント再設計プロジェクト',
             period: '2023/02 ～ 2023/04',
             summary: 'Atomic Design原則に基づくコンポーネント再設計とビジネスロジックの分離',
             details: [
@@ -470,7 +470,7 @@ export function useProfileData() {
         ],
         projects: [
           {
-            title: 'Search Service UI Redesign and Implementation Project',
+            title: 'UI Component Redesign Project',
             period: '2023/02 - 2023/04',
             summary: 'Component redesign based on Atomic Design principles and business logic separation',
             details: [
