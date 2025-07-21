@@ -254,6 +254,29 @@ export function useProfileData() {
           },
         ],
       },
+      {
+        companyName: '株式会社PORTAMENT（副業）',
+        period: '2024/09 ～ 2024/12',
+        position: 'ソフトウェアエンジニア',
+        responsibilities: [
+          'プロジェクトの要件定義と設計',
+          'フロントエンドとバックエンドの開発',
+          'システムのテストとデプロイメント',
+        ],
+        projects: [
+          {
+            title: 'ポートフォリオサイト開発',
+            period: '2024/09 ～ 2024/12',
+            summary: '個人のポートフォリオサイトを開発',
+            details: [
+              'Reactを使用したフロントエンド開発',
+              'Djangoを使用したバックエンド開発',
+              'データベース設計とAPIの実装',
+            ],
+            technologies: ['React', 'Django', 'PostgreSQL', 'Docker'],
+          },
+        ],
+      },
     ],
     en: [
       {
@@ -480,6 +503,29 @@ export function useProfileData() {
             summary: 'Deployment of machine learning models into production',
             details: ['Model monitoring and performance tuning', 'Scalability improvements'],
             technologies: ['Docker', 'Kubernetes', 'TensorFlow'],
+          },
+        ],
+      },
+      {
+        companyName: 'PORTAMENT Inc. (Side Project)',
+        period: '2024/09 - 2024/12',
+        position: 'Software Engineer',
+        responsibilities: [
+          'Project requirements definition and design',
+          'Frontend and backend development',
+          'System testing and deployment',
+        ],
+        projects: [
+          {
+            title: 'Portfolio Site Development',
+            period: '2024/09 - 2024/12',
+            summary: 'Development of personal portfolio site',
+            details: [
+              'Frontend development using React',
+              'Backend development using Django',
+              'Database design and API implementation',
+            ],
+            technologies: ['React', 'Django', 'PostgreSQL', 'Docker'],
           },
         ],
       },
