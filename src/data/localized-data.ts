@@ -35,9 +35,9 @@ export function useProfileData() {
         responsibilities: [
           'モバイルアプリ・Webアプリケーションの品質保証',
           'テスト設計・計画立案',
-          '品質管理プロセスの実践',
-          'クロスファンクショナルチームでの協業',
-          '不具合分析・改善提案',
+          '実機を用いたモバイルアプリのテスト実施',
+          '他チームとの調整と品質管理スキルの習得',
+          '網羅性の高いテストケースの作成と管理',
         ],
         projects: [
           {
@@ -266,9 +266,9 @@ export function useProfileData() {
         responsibilities: [
           'Quality assurance for mobile and web applications',
           'Test design and planning',
-          'Quality management process implementation',
-          'Cross-functional team collaboration',
-          'Defect analysis and improvement proposals',
+          'Mobile application testing using actual devices',
+          'Inter-team coordination and quality management skills development',
+          'Comprehensive test case creation and management',
         ],
         projects: [
           {
