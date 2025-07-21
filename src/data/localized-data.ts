@@ -309,9 +309,10 @@ export function useProfileData() {
         period: '2024/09 ～ 2024/12',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
-          'プロジェクトの要件定義と設計',
-          'フロントエンドとバックエンドの開発',
-          'システムのテストとデプロイメント',
+          'OAuth 2.0認証を活用した外部サービス連携の実装',
+          'Webhook機能による署名ステータス変更の追跡システム構築',
+          'Amazon EventBridgeを使用したリマインドメール・通知機能の実装',
+          'タスク完了時の自動通知とリマインド機能の提供',
         ],
         projects: [
           {
@@ -611,9 +612,10 @@ export function useProfileData() {
         period: '2024/09 - 2024/12',
         position: 'Software Engineer',
         responsibilities: [
-          'Project requirements definition and design',
-          'Frontend and backend development',
-          'System testing and deployment',
+          'External service integration implementation using OAuth 2.0 authentication',
+          'Signature status change tracking system development using Webhook functionality',
+          'Reminder email and notification functionality implementation using Amazon EventBridge',
+          'Automatic notification and reminder functionality for task completion',
         ],
         projects: [
           {
