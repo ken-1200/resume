@@ -212,7 +212,6 @@ export function useProfileData() {
         responsibilities: [
           'Atomic Design原則に基づくコンポーネントの再設計と一貫性確保',
           'ビジネスロジックの分離によるクリーンなコード構造の実現',
-          'TypeScript/Next.js/Nuxt.jsを用いた開発',
           '保守性向上のための一貫性のあるコンポーネント構造の確立',
         ],
         projects: [
@@ -442,7 +441,6 @@ export function useProfileData() {
         responsibilities: [
           'Component redesign and consistency assurance based on Atomic Design principles',
           'Clean code structure implementation through business logic separation',
-          'Development using TypeScript/Next.js/Nuxt.js',
           'Establishing consistent component structure for improved maintainability',
         ],
         projects: [
