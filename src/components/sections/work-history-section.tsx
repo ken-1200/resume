@@ -3,21 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Briefcase } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/src/components/ui/card';
-import WorkExperience from '@/src/components/work-experience';
-
-interface Company {
-  companyName: string;
-  period: string;
-  position: string;
-  responsibilities: string[];
-  projects: Array<{
-    title: string;
-    period: string;
-    summary: string;
-    details: string[];
-    technologies: string[];
-  }>;
-}
+import WorkExperience, { Company } from '@/src/components/work-experience';
 
 interface WorkHistorySectionProps {
   mainJobs: Company[];

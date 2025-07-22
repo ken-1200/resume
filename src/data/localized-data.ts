@@ -30,6 +30,7 @@ export function useProfileData() {
     ja: [
       {
         companyName: '株式会社RevComm',
+        companyUrl: 'https://www.revcomm.com/ja/',
         period: '2021/07 ～ 現在',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
@@ -175,6 +176,7 @@ export function useProfileData() {
       },
       {
         companyName: '株式会社システナ',
+        companyUrl: 'https://www.systena.co.jp/',
         period: '2020/04 ～ 2021/05',
         position: 'システムエンジニア（QAエンジニア）',
         responsibilities: [
@@ -209,6 +211,7 @@ export function useProfileData() {
     en: [
       {
         companyName: 'RevComm Inc.',
+        companyUrl: 'https://www.revcomm.com/en/',
         period: '2021/07 - Present',
         position: 'Software Engineer',
         responsibilities: [
@@ -355,6 +358,7 @@ export function useProfileData() {
       },
       {
         companyName: 'Systena Inc.',
+        companyUrl: 'https://www.systena.co.jp/',
         period: '2020/04 - Present',
         position: 'System Engineer (QA Engineer)',
         responsibilities: [
@@ -393,6 +397,7 @@ export function useProfileData() {
     ja: [
       {
         companyName: '株式会社PORTAMENT',
+        companyUrl: 'https://www.portament.jp/',
         period: '2024/09 ～ 2024/12',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
@@ -443,6 +448,7 @@ export function useProfileData() {
       },
       {
         companyName: 'Pathfinder株式会社',
+        companyUrl: 'https://pfr.technology/',
         period: '2023/12 ～ 2024/12',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
@@ -519,6 +525,7 @@ export function useProfileData() {
       },
       {
         companyName: '株式会社find',
+        companyUrl: 'https://www.finds.co.jp/',
         period: '2023/02 ～ 2023/04',
         position: 'ソフトウェアエンジニア',
         responsibilities: [
@@ -544,6 +551,7 @@ export function useProfileData() {
     en: [
       {
         companyName: 'PORTAMENT Inc.',
+        companyUrl: 'https://www.portament.jp/',
         period: '2024/09 - 2024/12',
         position: 'Software Engineer',
         responsibilities: [
@@ -616,6 +624,7 @@ export function useProfileData() {
       },
       {
         companyName: 'Pathfinder Inc.',
+        companyUrl: 'https://pfr.technology/',
         period: '2023/12 - 2024/12',
         position: 'Software Engineer',
         responsibilities: [
@@ -692,6 +701,7 @@ export function useProfileData() {
       },
       {
         companyName: 'find Inc.',
+        companyUrl: 'https://www.finds.co.jp/',
         period: '2023/02 - 2023/04',
         position: 'Software Engineer',
         responsibilities: [

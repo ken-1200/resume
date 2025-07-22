@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { ChevronDown, ChevronUp, Briefcase, Code } from 'lucide-react';
+import { ChevronDown, ChevronUp, Briefcase, Code, ExternalLink } from 'lucide-react';
 import { Button } from '@/src/components/ui/button';
 import { Badge } from '@/src/components/ui/badge';
 import { Separator } from '@/src/components/ui/separator';
@@ -16,8 +16,9 @@ interface Project {
   technologies: string[];
 }
 
-interface Company {
+export interface Company {
   companyName: string;
+  companyUrl?: string;
   period: string;
   position: string;
   responsibilities: string[];
@@ -56,7 +57,19 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
           {/* 会社情報 */}
           <div className={`border-l-2 pl-4 py-1 ${colors.border}`}>
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
-              <h4 className="font-semibold text-lg text-slate-800 dark:text-neutral-100">{company.companyName}</h4>
+              {company.companyUrl ? (
+                <a
+                  href={company.companyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-lg text-slate-800 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-300 transition-colors flex items-center group"
+                >
+                  {company.companyName}
+                  <ExternalLink className="h-4 w-4 ml-1 opacity-0 group-hover:opacity-70 transition-opacity" />
+                </a>
+              ) : (
+                <h4 className="font-semibold text-lg text-slate-800 dark:text-neutral-100">{company.companyName}</h4>
+              )}
               <Badge variant="secondary" className="shrink-0 dark:variant-outline">
                 {company.period}
               </Badge>
