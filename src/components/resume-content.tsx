@@ -383,7 +383,7 @@ export default function ResumeContent() {
       </header>
 
       {/* 作成中バナー - ヘッダー直後に配置 */}
-      <div className="w-full bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800/50 py-2 sticky top-[69px] z-10">
+      {/* <div className="w-full bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800/50 py-2 sticky top-[69px] z-10">
         <div className="container mx-auto px-4 text-center text-amber-800 dark:text-amber-300 font-medium">
           <div className="flex items-center justify-center gap-2">
             <span className="animate-pulse">⚠️</span>
@@ -391,13 +391,13 @@ export default function ResumeContent() {
             <span className="animate-pulse">⚠️</span>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ウォーターマーク - 固定配置 */}
-      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-5 opacity-[0.08]">
+      {/* <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-5 opacity-[0.08]">
         <div className="transform rotate-[-30deg] text-7xl font-black border-8 border-current p-6 text-slate-900 dark:text-white">
           {t('common.draft')}
         </div>
-      </div>
+      </div> */}
 
       {/* メインコンテンツ + サイドバー */}
       <div className="container mx-auto py-6 px-4">
@@ -569,9 +569,13 @@ export default function ResumeContent() {
                 </CardHeader>
                 <CardContent className="pt-4">
                   <div className="p-4 rounded-md border bg-slate-50 dark:bg-neutral-800/30 border-slate-200 dark:border-neutral-700/50">
-                    <p className="whitespace-pre-wrap leading-relaxed text-slate-700 dark:text-neutral-300">
-                      {selfPrText.trim()}
-                    </p>
+                    <ul className="list-disc ml-5 space-y-2 text-slate-700 dark:text-neutral-300">
+                      {selfPrText.map((text, i) => (
+                        <li key={i} className="leading-relaxed">
+                          {text}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </CardContent>
               </Card>
