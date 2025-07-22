@@ -264,7 +264,7 @@ export function useProfileData() {
               'メールテンプレートの作成と管理',
             ],
             technologies: [
-              'AWS EventBridge',
+              'AWS EventBridge Scheduler',
               'AWS Lambda',
               'Amazon SES',
               'Amazon SNS',
@@ -593,7 +593,7 @@ export function useProfileData() {
               'Email template creation and management',
             ],
             technologies: [
-              'AWS EventBridge',
+              'AWS EventBridge Scheduler',
               'AWS Lambda',
               'Amazon SES',
               'Amazon SNS',
