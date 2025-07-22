@@ -35,7 +35,9 @@
   },
   "workHistory": {
     "responsibilities": "職務内容",
-    "projects": "プロジェクト事例"
+    "projects": "プロジェクト事例",
+    "mainJob": "本業",
+    "sideProject": "副業"
   },
   "project": {
     "responsibilities": "担当業務",
