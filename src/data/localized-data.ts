@@ -473,7 +473,7 @@ export function useProfileData() {
           },
           {
             title: '予約通知・メール配信システム構築プロジェクト',
-            period: '2024/03 ～ 2024/03',
+            period: '2024/03 ～ 2024/04',
             summary: 'イベント駆動アーキテクチャを用いた通知システムの構築',
             details: [
               'AWSを使用したインフラの設計と管理',
@@ -510,7 +510,7 @@ export function useProfileData() {
           },
           {
             title: 'アフィリエイト・ポイント連携機能開発プロジェクト',
-            period: '2024/07 ～ 2024/07',
+            period: '2024/07 ～ 2024/08',
             summary: '外部パートナーとのポイント連携システムの構築',
             details: [
               'ポイント番号連携フォーム付きLPの設計・開発',
@@ -649,7 +649,7 @@ export function useProfileData() {
           },
           {
             title: 'Reservation Notification and Email Delivery System Development Project',
-            period: '2024/03 - 2024/03',
+            period: '2024/03 - 2024/04',
             summary: 'Notification system development using event-driven architecture',
             details: [
               'Infrastructure design and management using AWS',
@@ -686,7 +686,7 @@ export function useProfileData() {
           },
           {
             title: 'Affiliate Point Integration Feature Development Project',
-            period: '2024/07 - 2024/07',
+            period: '2024/07 - 2024/08',
             summary: 'Point integration system development with external partners',
             details: [
               'Point number integration form with LP design and development (React)',
