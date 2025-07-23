@@ -1019,16 +1019,16 @@ export function useProfileData() {
   // 自己PR文
   const selfPrText = {
     ja: [
-      'フルスタック開発からプロジェクトマネジメントまで幅広い経験を持つソフトウェアエンジニアです',
-      'AWS/GCPを活用したクラウドアーキテクチャの設計・実装から、チームのリードまで一貫して対応できます',
-      '特に、レガシーシステムの刷新やシステムの最適化から新機能開発など、さまざまな技術課題の解決において、技術的な解決策をビジネス価値に結びつけることを得意としています',
-      'QAエンジニアからキャリアをスタートし、品質への意識を持ちながら、常に新しい技術へのチャレンジを続けています',
+      'ソフトウェアエンジニアとして、フルスタック開発からプロジェクトマネジメントまで幅広い経験があります',
+      'AWS/GCPを活用したクラウドアーキテクチャの設計・実装から、プロジェクトのリードまで、幅広く対応可能です',
+      'レガシーシステムの刷新、システム最適化、新機能開発など、様々な技術課題において、技術的な解決策をビジネス価値に結びつけることを得意としています',
+      'QAエンジニアからキャリアをスタートし、常に新しい技術へのチャレンジを続けています',
     ],
     en: [
-      'I am a software engineer with extensive experience ranging from full-stack development to project management',
-      'I can handle everything from designing and implementing cloud architectures using AWS/GCP to leading teams',
-      'I excel at connecting technical solutions to business value across various technical challenges, from legacy system modernization and system optimization to new feature development',
-      'Starting my career as a QA engineer, I maintain a strong quality mindset while continuously challenging myself with new technologies',
+      'As a software engineer, I have extensive experience ranging from full-stack development to project management',
+      'I can handle a wide range of responsibilities from designing and implementing cloud architectures using AWS/GCP to leading projects',
+      'I excel at connecting technical solutions to business value across various technical challenges, including legacy system modernization, system optimization, and new feature development',
+      'Starting my career as a QA engineer, I continuously embrace new technological challenges',
     ],
   };
 
