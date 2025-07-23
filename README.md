@@ -9,6 +9,7 @@ A modern, internationalized personal resume website built with Next.js.
 - **Dark/Light Mode**: Theme switching with system preference detection
 - **Component-Based Architecture**: Built with reusable React components
 - **Internationalization (i18n)**: Supports content in multiple languages
+- **CLI PDF Generation**: Generate high-quality PDF and Markdown files from resume data
 - **Modern Tech Stack**: Next.js, TypeScript, and Tailwind CSS
 
 ## Tech Stack
@@ -18,6 +19,7 @@ A modern, internationalized personal resume website built with Next.js.
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Shadcn UI](https://ui.shadcn.com/) - UI components
 - [next-intl](https://next-intl-docs.vercel.app/) - Internationalization
+- [markdown-pdf](https://github.com/alanshaw/markdown-pdf) - PDF generation from Markdown
 
 ## Getting Started
 
@@ -49,6 +51,43 @@ A modern, internationalized personal resume website built with Next.js.
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## CLI Commands
+
+### Resume Generation
+
+Generate high-quality PDF and Markdown files from your resume data:
+
+```bash
+# Generate both Markdown and PDF
+pnpm generate:resume [ja|en]
+
+# Generate Markdown only
+pnpm generate:markdown [ja|en]
+
+# Generate PDF only
+pnpm generate:pdf [ja|en]
+```
+
+**Examples:**
+
+```bash
+# Generate Japanese resume (both formats)
+pnpm generate:resume ja
+
+# Generate English resume (both formats)
+pnpm generate:resume en
+
+# Generate only Japanese PDF
+pnpm generate:pdf ja
+```
+
+**Output Files:**
+
+- `output/resume_ja.md` - Japanese Markdown
+- `output/resume_ja.pdf` - Japanese PDF
+- `output/resume_en.md` - English Markdown
+- `output/resume_en.pdf` - English PDF
+
 ## Project Structure
 
 ```text
@@ -58,6 +97,7 @@ resume/
 │   │   └── [locale]/         # Locale-specific pages
 │   ├── components/           # Reusable UI components
 │   │   ├── ui/               # UI components from shadcn
+│   │   ├── sections/         # Resume section components
 │   │   └── icon/             # Icon components
 │   ├── data/                 # Resume data and content
 │   ├── hooks/                # Custom React hooks
@@ -65,6 +105,10 @@ resume/
 │   │   └── messages/         # Translation messages
 │   ├── lib/                  # Utility functions
 │   └── types/                # TypeScript type definitions
+├── scripts/                  # CLI scripts for PDF/Markdown generation
+│   ├── extract-data.mjs      # Data extraction utility
+│   └── generate-resume.mjs   # Main generation script
+├── output/                   # Generated files (gitignored)
 ├── .github/                  # GitHub Actions workflows
 ├── .env                      # Environment variables
 ├── next.config.ts            # Next.js configuration
@@ -109,6 +153,7 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 - **ダーク/ライトモード**: システム設定に連動したテーマ切り替え
 - **コンポーネントベースのアーキテクチャ**: 再利用可能なReactコンポーネントで構築
 - **国際化（i18n）**: 複数言語でのコンテンツ提供をサポート
+- **CLI PDF生成**: レジュームデータから高品質なPDFとMarkdownファイルを生成
 - **最新のテックスタック**: Next.js、TypeScript、Tailwind CSSを使用
 
 ## 技術スタック
@@ -118,6 +163,7 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
 - [Tailwind CSS](https://tailwindcss.com/) - スタイリング
 - [Shadcn UI](https://ui.shadcn.com/) - UIコンポーネント
 - [next-intl](https://next-intl-docs.vercel.app/) - 国際化
+- [markdown-pdf](https://github.com/alanshaw/markdown-pdf) - MarkdownからPDF生成
 
 ## 始め方
 
@@ -148,6 +194,43 @@ Next.jsで構築された、多言語対応の現代的な個人レジュメウ�
    ```
 
 4. ブラウザで[http://localhost:3000](http://localhost:3000)を開く。
+
+## CLIコマンド
+
+### レジューム生成
+
+レジュームデータから高品質なPDFとMarkdownファイルを生成：
+
+```bash
+# MarkdownとPDFの両方を生成
+pnpm generate:resume [ja|en]
+
+# Markdownのみ生成
+pnpm generate:markdown [ja|en]
+
+# PDFのみ生成
+pnpm generate:pdf [ja|en]
+```
+
+**例:**
+
+```bash
+# 日本語レジューム生成（両形式）
+pnpm generate:resume ja
+
+# 英語レジューム生成（両形式）
+pnpm generate:resume en
+
+# 日本語PDFのみ生成
+pnpm generate:pdf ja
+```
+
+**出力ファイル:**
+
+- `output/resume_ja.md` - 日本語Markdown
+- `output/resume_ja.pdf` - 日本語PDF
+- `output/resume_en.md` - 英語Markdown
+- `output/resume_en.pdf` - 英語PDF
 
 ## プロジェクト構造
 
