@@ -480,7 +480,7 @@ export function useProfileData() {
             technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
-            title: '予約通知・メール配信システム構築プロジェクト',
+            title: 'メール配信システム構築プロジェクト',
             period: '2024/03 ～ 2024/04',
             summary: 'イベント駆動アーキテクチャを用いた通知システムの構築',
             details: [
@@ -504,7 +504,7 @@ export function useProfileData() {
             ],
           },
           {
-            title: '同乗者情報登録機能開発プロジェクト',
+            title: '同乗者情報の登録機能開発プロジェクト',
             period: '2024/05 ～ 2024/06',
             summary: '企業向け車両予約サービスに対応した同乗者情報管理機能の構築',
             details: [
@@ -643,7 +643,7 @@ export function useProfileData() {
             technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
-            title: 'Reservation Notification and Email Delivery System Development Project',
+            title: 'Email Delivery System Development Project',
             period: '2024/03 - 2024/04',
             summary: 'Notification system development using event-driven architecture',
             details: [
