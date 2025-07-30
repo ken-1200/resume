@@ -504,9 +504,9 @@ export function useProfileData() {
             ],
           },
           {
-            title: '同乗者情報登録システム開発プロジェクト',
+            title: '同乗者情報登録機能開発プロジェクト',
             period: '2024/05 ～ 2024/06',
-            summary: '企業向け車両予約サービスに対応した同乗者情報管理システムの構築',
+            summary: '企業向け車両予約サービスに対応した同乗者情報管理機能の構築',
             details: [
               '予約確認画面における保証項目の非表示・規約同意チェック機能の追加',
               '同乗者情報のDB設計および一時保存機構の導入',
@@ -667,9 +667,9 @@ export function useProfileData() {
             ],
           },
           {
-            title: 'Passenger Information Registration System Development Project',
+            title: 'Passenger Information Registration Feature Development Project',
             period: '2024/05 - 2024/06',
-            summary: 'Passenger information management system development for corporate vehicle booking services',
+            summary: 'Passenger information management feature development for corporate vehicle booking services',
             details: [
               'Addition of warranty item hiding and agreement check features in booking confirmation screen',
               'Database design for passenger information and introduction of temporary storage mechanism',
