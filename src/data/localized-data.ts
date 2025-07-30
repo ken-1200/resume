@@ -442,7 +442,15 @@ export function useProfileData() {
               'リマインド通知用エンドポイントの設計と実装',
               '状態変化に応じたスケジュール管理（削除・更新・新規作成）',
             ],
-            technologies: ['Python', 'FastAPI', 'AWS EventBridge Scheduler', 'AWS Lambda'],
+            technologies: [
+              'AWS EventBridge Scheduler',
+              'AWS Lambda',
+              'Amazon SES',
+              'Amazon SNS',
+              'Amazon DynamoDB',
+              'Python',
+              'FastAPI',
+            ],
           },
         ],
       },
@@ -562,17 +570,6 @@ export function useProfileData() {
         ],
         projects: [
           {
-            title: 'Portfolio Site Development',
-            period: '2024/09 - 2024/12',
-            summary: 'Development of personal portfolio site',
-            details: [
-              'Frontend development using React',
-              'Backend development using Django',
-              'Database design and API implementation',
-            ],
-            technologies: ['React', 'Django', 'PostgreSQL', 'Docker'],
-          },
-          {
             title: 'Electronic Signature Service Integration Development Project',
             period: '2024/10 - 2024/11',
             summary:
@@ -616,8 +613,6 @@ export function useProfileData() {
               'Amazon DynamoDB',
               'Python',
               'FastAPI',
-              'TypeScript',
-              'React',
             ],
           },
         ],
