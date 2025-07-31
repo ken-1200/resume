@@ -517,11 +517,11 @@ export function useProfileData() {
             technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
-            title: 'アフィリエイト・ポイント連携機能開発プロジェクト',
+            title: 'アフィリエイト・マイル連携機能開発プロジェクト',
             period: '2024/07 ～ 2024/08',
-            summary: '外部パートナーとのポイント連携システムの構築',
+            summary: '外部パートナーとのマイル連携システムの構築',
             details: [
-              'ポイント番号連携フォーム付きLPの設計・開発',
+              'マイル番号連携フォーム付きLPの設計・開発',
               'Cookieを用いた有効遷移の制御',
               'DBスキーマ設計とAPI設計',
               '決済時の紐付けロジック実装とバリデーション',
@@ -680,11 +680,11 @@ export function useProfileData() {
             technologies: ['TypeScript', 'React', 'Express', 'Node.js', 'Prisma', 'PostgreSQL'],
           },
           {
-            title: 'Affiliate Point Integration Feature Development Project',
+            title: 'Affiliate Mileage Integration Feature Development Project',
             period: '2024/07 - 2024/08',
-            summary: 'Point integration system development with external partners',
+            summary: 'Mileage integration system development with external partners',
             details: [
-              'Point number integration form with LP design and development (React)',
+              'Mileage number integration form with LP design and development (React)',
               'Valid transition control using Cookies',
               'Database schema design and API design',
               'Payment integration logic implementation and validation',
