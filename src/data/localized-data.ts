@@ -139,7 +139,6 @@ export function useProfileData() {
             period: '2023/03 ～ 2023/06',
             summary: 'テックチーム横断プロジェクトのリーダーとして新システムを開発',
             details: [
-              '要件定義から運用までの全工程を担当',
               'API・インフラ設計とクリーンアーキテクチャの採用',
               'チーム内外とのコミュニケーション調整（デザイン依頼等）',
               'ナレッジトランスファーとコードレビューによる品質確保',
@@ -321,7 +320,6 @@ export function useProfileData() {
             period: '2023/03 - 2023/06',
             summary: 'Led cross-tech team project to develop new system',
             details: [
-              'Handled entire process from requirements definition to operation',
               'Designed API and infrastructure with clean architecture adoption',
               'Coordinated internal and external communications including design requests',
               'Ensured quality through knowledge transfer and code reviews',
