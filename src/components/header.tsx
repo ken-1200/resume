@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useTheme } from 'next-themes';
-import { Sun, Moon, ChevronUp, AlignLeft } from 'lucide-react';
+import { ChevronUp, AlignLeft } from 'lucide-react';
 import { Button } from '@/src/components/ui/button';
 import {
   Sheet,
@@ -15,6 +15,7 @@ import {
 } from '@/src/components/ui/sheet';
 import { Badge } from '@/src/components/ui/badge';
 import LanguageSwitcher from '@/src/components/language-switcher';
+import ThemeSwitch from '@/src/components/icon/theme-switch';
 
 interface Section {
   id: string;
@@ -126,8 +127,9 @@ export default function Header({
           onClick={() => setTheme(currentTheme === 'dark' ? 'light' : 'dark')}
           className="cursor-pointer dark:hover:bg-neutral-800"
         >
-          <Sun className="h-5 w-5 transition-all dark:rotate-90 dark:scale-0" />
-          <Moon className="absolute h-5 w-5 transition-all rotate-90 scale-0 dark:rotate-0 dark:scale-100" />
+          {/* <Sun className="h-5 w-5 transition-all dark:rotate-90 dark:scale-0" />
+          <Moon className="absolute h-5 w-5 transition-all rotate-90 scale-0 dark:rotate-0 dark:scale-100" /> */}
+          <ThemeSwitch className="h-5 w-5" />
           <span className="sr-only">{t('common.toggleTheme')}</span>
         </Button>
       </div>
