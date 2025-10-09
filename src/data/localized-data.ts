@@ -736,8 +736,12 @@ export function useProfileData() {
         {
           name: 'SQL',
           experience: '4年',
-          details:
-            'Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQLを用いたクエリ作成、ER図設計、パフォーマンス最適化、、データベース設計、正規化',
+          details: 'Django ORM, Prisma, SQLAlchemy, BigQuery',
+        },
+        {
+          name: 'Terraform',
+          experience: '4年',
+          details: 'インフラ構築自動化、IaC実践、モジュール設計、ステート管理',
         },
       ],
       frameworks: [
@@ -777,6 +781,25 @@ export function useProfileData() {
           details: 'SPAアプリケーション開発、コンポーネント設計',
         },
       ],
+      databases: [
+        {
+          name: 'PostgreSQL',
+          experience: '4年',
+          details: 'データベース設計、クエリ最適化、インデックス設計、パフォーマンスチューニング',
+        },
+      ],
+      cloud: [
+        {
+          name: 'AWS',
+          experience: '4年',
+          details: 'VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch等の利用経験',
+        },
+        {
+          name: 'GCP',
+          experience: '2年',
+          details: 'BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer等の利用経験',
+        },
+      ],
       tools: [
         {
           name: 'Docker',
@@ -787,16 +810,6 @@ export function useProfileData() {
           name: 'GitHub',
           experience: '4年',
           details: 'マージ戦略、ワークフロー設計、Pull Request管理、ブランチ戦略',
-        },
-        {
-          name: 'AWS',
-          experience: '4年',
-          details: 'VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch等の利用経験',
-        },
-        {
-          name: 'GCP',
-          experience: '2年',
-          details: 'BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer等の利用経験',
         },
       ],
       others: [
@@ -842,8 +855,12 @@ export function useProfileData() {
         {
           name: 'SQL',
           experience: '4 years',
-          details:
-            'Django ORM, Prisma, SQLAlchemy, BigQuery, PostgreSQL query creation, ER diagram design, performance optimization, database design, normalization',
+          details: 'Django ORM, Prisma, SQLAlchemy, BigQuery',
+        },
+        {
+          name: 'Terraform',
+          experience: '4 years',
+          details: 'Infrastructure automation, IaC practices, module design, state management',
         },
       ],
       frameworks: [
@@ -873,6 +890,25 @@ export function useProfileData() {
           details: 'SPA application development, component design',
         },
       ],
+      databases: [
+        {
+          name: 'PostgreSQL',
+          experience: '4 years',
+          details: 'Database design, query optimization, index design, performance tuning',
+        },
+      ],
+      cloud: [
+        {
+          name: 'AWS',
+          experience: '4 years',
+          details: 'Experience with VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch, etc.',
+        },
+        {
+          name: 'GCP',
+          experience: '2 years',
+          details: 'Experience with BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer, etc.',
+        },
+      ],
       tools: [
         {
           name: 'Docker',
@@ -883,16 +919,6 @@ export function useProfileData() {
           name: 'GitHub',
           experience: '4 years',
           details: 'Merge strategies, workflow design, Pull Request management, branch strategies',
-        },
-        {
-          name: 'AWS',
-          experience: '4 years',
-          details: 'Experience with VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch, etc.',
-        },
-        {
-          name: 'GCP',
-          experience: '2 years',
-          details: 'Experience with BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer, etc.',
         },
       ],
       others: [
