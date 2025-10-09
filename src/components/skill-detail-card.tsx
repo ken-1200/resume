@@ -1,6 +1,6 @@
 'use client';
 
-import { Code, Layers, Settings, Wrench } from 'lucide-react';
+import { Cloud, Code, Database, Layers, Settings, Wrench } from 'lucide-react';
 import { Separator } from '@/src/components/ui/separator';
 import { Badge } from '@/src/components/ui/badge';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/src/components/ui/tooltip';
@@ -23,6 +23,10 @@ const getCategoryIcon = (category: string) => {
       return <Code className="h-3.5 w-3.5 text-primary" />;
     case 'frameworks':
       return <Layers className="h-3.5 w-3.5 text-primary" />;
+    case 'databases':
+      return <Database className="h-3.5 w-3.5 text-primary" />;
+    case 'cloud':
+      return <Cloud className="h-3.5 w-3.5 text-primary" />;
     case 'tools':
       return <Wrench className="h-3.5 w-3.5 text-primary" />;
     case 'others':

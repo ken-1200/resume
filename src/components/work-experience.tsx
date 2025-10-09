@@ -93,13 +93,13 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
             </div>
 
             {/* プロジェクト事例 */}
-            <div>
+            <div className="min-w-0">
               <h5 className="text-sm font-medium mb-3 flex items-center text-slate-500 dark:text-neutral-400">
                 <Code className="h-4 w-4 mr-2 flex-shrink-0" />
                 {t('workHistory.projects')}
               </h5>
 
-              <div className="space-y-3 relative">
+              <div className="space-y-3 relative min-w-0">
                 {/* タイムライン縦線 */}
                 <div className="absolute left-[7px] top-[24px] bottom-2 w-[1px] bg-slate-200 dark:bg-neutral-700"></div>
 
@@ -121,7 +121,7 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
                     >
                       <CollapsibleTrigger asChild>
                         <div
-                          className="flex justify-between items-center p-3 cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-700/50"
+                          className="flex justify-between items-center p-3 cursor-pointer hover:bg-slate-50 dark:hover:bg-neutral-700/50 min-w-0"
                           role="button"
                           aria-expanded={isOpen}
                           aria-controls={`project-content-${type}-${companyIdx}-${projIdx}`}
@@ -133,10 +133,8 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
                               ${isOpen ? colors.dotActive : 'bg-slate-300 dark:bg-neutral-600'}
                             `}
                             ></div>
-                            <div className="min-w-0">
-                              <h6 className="font-medium truncate text-slate-800 dark:text-neutral-200">
-                                {project.title}
-                              </h6>
+                            <div className="min-w-0 flex-1">
+                              <h6 className="font-medium text-slate-800 dark:text-neutral-200">{project.title}</h6>
                               <p className="text-xs text-slate-500 dark:text-neutral-400">{project.period}</p>
                             </div>
                           </div>
@@ -155,7 +153,7 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
                         id={`project-content-${type}-${companyIdx}-${projIdx}`}
                         className="animate-in fade-in-0 data-[state=closed]:animate-out data-[state=closed]:fade-out-0"
                       >
-                        <div className="p-4 pt-2 border-t border-slate-200 dark:border-neutral-700/50 bg-slate-50/50 dark:bg-neutral-800/50">
+                        <div className="p-4 pt-2 border-t border-slate-200 dark:border-neutral-700/50 bg-slate-50/50 dark:bg-neutral-800/50 min-w-0">
                           <div className="mb-3">
                             <p className="text-sm text-slate-700 dark:text-neutral-300">{project.summary}</p>
                           </div>
@@ -171,7 +169,7 @@ export default function WorkExperience({ companies, type }: WorkExperienceProps)
                             </ul>
                           </div>
 
-                          <div>
+                          <div className="min-w-0">
                             <h6 className="text-xs font-medium mb-2 text-slate-500 dark:text-neutral-400">
                               {t('project.technologies')}
                             </h6>

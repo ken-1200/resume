@@ -11,7 +11,11 @@ export function getCategoryName(category: string, locale: string) {
       case 'programming':
         return 'プログラミング言語';
       case 'frameworks':
-        return 'フレームワーク';
+        return 'フレームワーク・ライブラリ';
+      case 'databases':
+        return 'データベース';
+      case 'cloud':
+        return 'クラウド・インフラ';
       case 'tools':
         return 'ツール';
       case 'others':
@@ -24,7 +28,11 @@ export function getCategoryName(category: string, locale: string) {
       case 'programming':
         return 'Programming Languages';
       case 'frameworks':
-        return 'Frameworks';
+        return 'Frameworks & Libraries';
+      case 'databases':
+        return 'Databases';
+      case 'cloud':
+        return 'Cloud & Infrastructure';
       case 'tools':
         return 'Tools';
       case 'others':

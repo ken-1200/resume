@@ -277,7 +277,7 @@ export default function ResumeContent() {
           <Sidebar sections={sections} activeSection={activeSection} handleNavClick={handleNavClick} />
 
           {/* メインコンテンツ */}
-          <main className="space-y-6">
+          <main className="space-y-6 min-w-0" style={{ overflowWrap: 'anywhere' }}>
             {/* 個人情報 */}
             <ProfileSection
               profile={profile}
