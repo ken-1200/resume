@@ -1038,16 +1038,16 @@ export function useProfileData() {
   // 自己PR文
   const selfPrText = {
     ja: [
-      'ソフトウェアエンジニアとして、フルスタック開発からプロジェクトマネジメントまで幅広い経験があります',
-      'AWS/GCPを活用したクラウドアーキテクチャの設計・実装から、プロジェクトのリードまで、幅広く対応可能です',
+      'Python/AWS/TypeScriptを中心に、フロント・バックエンド・インフラのフルスタック開発を得意としています',
+      'AWS/GCPを活用したクラウドアーキテクチャ設計とインフラ構築の経験があり、0→1のシステム立ち上げを複数経験',
       'レガシーシステムの刷新、システム最適化、新機能開発など、様々な技術課題において、技術的な解決策をビジネス価値に結びつけることを得意としています',
-      'QAエンジニアからキャリアをスタートし、常に新しい技術へのチャレンジを続けています',
+      '常に新しい技術へのチャレンジを続けています',
     ],
     en: [
-      'As a software engineer, I have extensive experience ranging from full-stack development to project management',
-      'I can handle a wide range of responsibilities from designing and implementing cloud architectures using AWS/GCP to leading projects',
-      'I excel at connecting technical solutions to business value across various technical challenges, including legacy system modernization, system optimization, and new feature development',
-      'Starting my career as a QA engineer, I continuously embrace new technological challenges',
+      'I specialize in full-stack development, focusing on Python, AWS, and TypeScript for both frontend and backend as well as infrastructure.',
+      'I have experience in cloud architecture design and infrastructure construction utilizing AWS and GCP, with multiple 0→1 system launches',
+      'I excel at linking technical solutions to business value across various technical challenges, including legacy system renewal, system optimization, and new feature development.',
+      'I am constantly challenging myself with new technologies.',
     ],
   };
 
