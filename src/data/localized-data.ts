@@ -725,34 +725,34 @@ export function useProfileData() {
       programming: [
         {
           name: 'Python',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'バックエンド開発、自動化スクリプト作成、AI関連開発（MCP Server）',
         },
         {
           name: 'TypeScript',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'フロントエンド・バックエンド開発、型安全な実装',
         },
         {
           name: 'SQL',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'Django ORM, Prisma, SQLAlchemy, BigQuery',
         },
         {
           name: 'Terraform',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'インフラ構築自動化、IaC実践、モジュール設計、ステート管理',
         },
       ],
       frameworks: [
         {
           name: 'Django',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'REST API開発、認証システム実装、Django REST Framework',
         },
         {
           name: 'FastAPI',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'REST API開発、マイクロサービス構築、非同期処理、並列処理',
         },
         {
@@ -762,7 +762,7 @@ export function useProfileData() {
         },
         {
           name: 'React',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'SPAアプリケーション開発、カスタムフック実装、コンポーネント設計',
         },
         {
@@ -784,53 +784,53 @@ export function useProfileData() {
       databases: [
         {
           name: 'PostgreSQL',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'データベース設計、クエリ最適化、インデックス設計、パフォーマンスチューニング',
         },
       ],
       cloud: [
         {
           name: 'AWS',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch等の利用経験',
         },
         {
           name: 'GCP',
-          experience: '2年',
+          experience: '3年',
           details: 'BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer等の利用経験',
         },
       ],
       tools: [
         {
           name: 'Docker',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'マルチコンテナ環境構築、CI/CDパイプライン統合、Docker Compose、マルチステージビルド',
         },
         {
           name: 'GitHub',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'マージ戦略、ワークフロー設計、Pull Request管理、ブランチ戦略',
         },
       ],
       others: [
         {
           name: 'CI/CD',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'CodeDeploy, GitHub Actions等の利用経験',
         },
         {
           name: 'テスト自動化',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'テスト設計、単体テスト、統合テスト、カバレッジ管理',
         },
         {
           name: 'マイクロサービス',
-          experience: '4年',
+          experience: '4年7ヶ月',
           details: 'サービス分割設計、API設計、サービス間通信、イベント駆動アーキテクチャ',
         },
         {
           name: 'プロジェクト管理',
-          experience: '2年',
+          experience: '3年',
           details: 'プロジェクトリーダー経験、プロジェクト進行管理',
         },
         {
@@ -844,34 +844,34 @@ export function useProfileData() {
       programming: [
         {
           name: 'Python',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Backend development, automation scripts, AI-related development (MCP Server)',
         },
         {
           name: 'TypeScript',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Frontend and backend development, type-safe implementation',
         },
         {
           name: 'SQL',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Django ORM, Prisma, SQLAlchemy, BigQuery',
         },
         {
           name: 'Terraform',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Infrastructure automation, IaC practices, module design, state management',
         },
       ],
       frameworks: [
         {
           name: 'Django',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'REST API development, authentication system implementation, Django REST Framework',
         },
         {
           name: 'FastAPI',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'REST API development, microservice construction, asynchronous processing, parallel processing',
         },
         {
@@ -893,53 +893,53 @@ export function useProfileData() {
       databases: [
         {
           name: 'PostgreSQL',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Database design, query optimization, index design, performance tuning',
         },
       ],
       cloud: [
         {
           name: 'AWS',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Experience with VPC, CloudFront, Route53, EC2, ECS, S3, Lambda, RDS, AWS Batch, etc.',
         },
         {
           name: 'GCP',
-          experience: '2 years',
+          experience: '3 years',
           details: 'Experience with BigQuery, Datastream, GCS, Cloud Functions, Storage Transfer, etc.',
         },
       ],
       tools: [
         {
           name: 'Docker',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Multi-container environment setup, CI/CD pipeline integration, Docker Compose, multi-stage builds',
         },
         {
           name: 'GitHub',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Merge strategies, workflow design, Pull Request management, branch strategies',
         },
       ],
       others: [
         {
           name: 'CI/CD',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Experience with CodeDeploy, GitHub Actions, etc.',
         },
         {
           name: 'Test Automation',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Test design, unit testing, integration testing, coverage management',
         },
         {
           name: 'Microservices',
-          experience: '4 years',
+          experience: '4 years 7 months',
           details: 'Service division design, API design, inter-service communication, event-driven architecture',
         },
         {
           name: 'Project Management',
-          experience: '2 years',
+          experience: '3 years',
           details: 'Project leader experience, project progress management',
         },
         {
